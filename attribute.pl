@@ -1,3 +1,6 @@
+% https://www.swi-prolog.org/FAQ/Multifile.html
+:- multifile prop/3.
+
 % Strength
 prop(abaddon, attribute, strength).
 prop(alchemist, attribute, strength).

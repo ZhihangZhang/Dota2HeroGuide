@@ -1,3 +1,6 @@
+% https://www.swi-prolog.org/FAQ/Multifile.html
+:- multifile prop/3.
+
 % earthshaker
 prop(earthshaker, counters, broodmother).
 prop(earthshaker, counters, chaos_knight).

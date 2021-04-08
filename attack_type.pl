@@ -1,3 +1,6 @@
+% https://www.swi-prolog.org/FAQ/Multifile.html
+:- multifile prop/3.
+
 % Melee
 prop(abaddon, attack_type, melee).
 prop(alchemist, attack_type, melee).
