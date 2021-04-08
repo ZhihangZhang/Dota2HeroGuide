@@ -1,0 +1,482 @@
+[
+    {
+        "name": "earthshaker",
+        "url": "https://dota2.fandom.com/wiki/Earthshaker"
+    },
+    {
+        "name": "sven",
+        "url": "https://dota2.fandom.com/wiki/Sven"
+    },
+    {
+        "name": "tiny",
+        "url": "https://dota2.fandom.com/wiki/Tiny"
+    },
+    {
+        "name": "kunkka",
+        "url": "https://dota2.fandom.com/wiki/Kunkka"
+    },
+    {
+        "name": "anti-mage",
+        "url": "https://dota2.fandom.com/wiki/Anti-Mage"
+    },
+    {
+        "name": "drow_ranger",
+        "url": "https://dota2.fandom.com/wiki/Drow_Ranger"
+    },
+    {
+        "name": "juggernaut",
+        "url": "https://dota2.fandom.com/wiki/Juggernaut"
+    },
+    {
+        "name": "mirana",
+        "url": "https://dota2.fandom.com/wiki/Mirana"
+    },
+    {
+        "name": "crystal_maiden",
+        "url": "https://dota2.fandom.com/wiki/Crystal_Maiden"
+    },
+    {
+        "name": "puck",
+        "url": "https://dota2.fandom.com/wiki/Puck"
+    },
+    {
+        "name": "storm_spirit",
+        "url": "https://dota2.fandom.com/wiki/Storm_Spirit"
+    },
+    {
+        "name": "windranger",
+        "url": "https://dota2.fandom.com/wiki/Windranger"
+    },
+    {
+        "name": "beastmaster",
+        "url": "https://dota2.fandom.com/wiki/Beastmaster"
+    },
+    {
+        "name": "dragon_knight",
+        "url": "https://dota2.fandom.com/wiki/Dragon_Knight"
+    },
+    {
+        "name": "clockwerk",
+        "url": "https://dota2.fandom.com/wiki/Clockwerk"
+    },
+    {
+        "name": "omniknight",
+        "url": "https://dota2.fandom.com/wiki/Omniknight"
+    },
+    {
+        "name": "morphling",
+        "url": "https://dota2.fandom.com/wiki/Morphling"
+    },
+    {
+        "name": "phantom_lancer",
+        "url": "https://dota2.fandom.com/wiki/Phantom_Lancer"
+    },
+    {
+        "name": "vengeful_spirit",
+        "url": "https://dota2.fandom.com/wiki/Vengeful_Spirit"
+    },
+    {
+        "name": "riki",
+        "url": "https://dota2.fandom.com/wiki/Riki"
+    },
+    {
+        "name": "zeus",
+        "url": "https://dota2.fandom.com/wiki/Zeus"
+    },
+    {
+        "name": "lina",
+        "url": "https://dota2.fandom.com/wiki/Lina"
+    },
+    {
+        "name": "shadow_shaman",
+        "url": "https://dota2.fandom.com/wiki/Shadow_Shaman"
+    },
+    {
+        "name": "tinker",
+        "url": "https://dota2.fandom.com/wiki/Tinker"
+    },
+    {
+        "name": "huskar",
+        "url": "https://dota2.fandom.com/wiki/Huskar"
+    },
+    {
+        "name": "alchemist",
+        "url": "https://dota2.fandom.com/wiki/Alchemist"
+    },
+    {
+        "name": "brewmaster",
+        "url": "https://dota2.fandom.com/wiki/Brewmaster"
+    },
+    {
+        "name": "treant_protector",
+        "url": "https://dota2.fandom.com/wiki/Treant_Protector"
+    },
+    {
+        "name": "sniper",
+        "url": "https://dota2.fandom.com/wiki/Sniper"
+    },
+    {
+        "name": "templar_assassin",
+        "url": "https://dota2.fandom.com/wiki/Templar_Assassin"
+    },
+    {
+        "name": "luna",
+        "url": "https://dota2.fandom.com/wiki/Luna"
+    },
+    {
+        "name": "bounty_hunter",
+        "url": "https://dota2.fandom.com/wiki/Bounty_Hunter"
+    },
+    {
+        "name": "natures_prophet",
+        "url": "https://dota2.fandom.com/wiki/Nature%27s_Prophet"
+    },
+    {
+        "name": "enchantress",
+        "url": "https://dota2.fandom.com/wiki/Enchantress"
+    },
+    {
+        "name": "jakiro",
+        "url": "https://dota2.fandom.com/wiki/Jakiro"
+    },
+    {
+        "name": "chen",
+        "url": "https://dota2.fandom.com/wiki/Chen"
+    },
+    {
+        "name": "io",
+        "url": "https://dota2.fandom.com/wiki/Io"
+    },
+    {
+        "name": "centaur_warrunner",
+        "url": "https://dota2.fandom.com/wiki/Centaur_Warrunner"
+    },
+    {
+        "name": "timbersaw",
+        "url": "https://dota2.fandom.com/wiki/Timbersaw"
+    },
+    {
+        "name": "bristleback",
+        "url": "https://dota2.fandom.com/wiki/Bristleback"
+    },
+    {
+        "name": "ursa",
+        "url": "https://dota2.fandom.com/wiki/Ursa"
+    },
+    {
+        "name": "gyrocopter",
+        "url": "https://dota2.fandom.com/wiki/Gyrocopter"
+    },
+    {
+        "name": "hoodwink",
+        "url": "https://dota2.fandom.com/wiki/Hoodwink"
+    },
+    {
+        "name": "lone_druid",
+        "url": "https://dota2.fandom.com/wiki/Lone_Druid"
+    },
+    {
+        "name": "silencer",
+        "url": "https://dota2.fandom.com/wiki/Silencer"
+    },
+    {
+        "name": "ogre_magi",
+        "url": "https://dota2.fandom.com/wiki/Ogre_Magi"
+    },
+    {
+        "name": "rubick",
+        "url": "https://dota2.fandom.com/wiki/Rubick"
+    },
+    {
+        "name": "disruptor",
+        "url": "https://dota2.fandom.com/wiki/Disruptor"
+    },
+    {
+        "name": "tusk",
+        "url": "https://dota2.fandom.com/wiki/Tusk"
+    },
+    {
+        "name": "elder_titan",
+        "url": "https://dota2.fandom.com/wiki/Elder_Titan"
+    },
+    {
+        "name": "legion_commander",
+        "url": "https://dota2.fandom.com/wiki/Legion_Commander"
+    },
+    {
+        "name": "earth_spirit",
+        "url": "https://dota2.fandom.com/wiki/Earth_Spirit"
+    },
+    {
+        "name": "naga_siren",
+        "url": "https://dota2.fandom.com/wiki/Naga_Siren"
+    },
+    {
+        "name": "troll_warlord",
+        "url": "https://dota2.fandom.com/wiki/Troll_Warlord"
+    },
+    {
+        "name": "ember_spirit",
+        "url": "https://dota2.fandom.com/wiki/Ember_Spirit"
+    },
+    {
+        "name": "monkey_king",
+        "url": "https://dota2.fandom.com/wiki/Monkey_King"
+    },
+    {
+        "name": "keeper_of_the_light",
+        "url": "https://dota2.fandom.com/wiki/Keeper_of_the_Light"
+    },
+    {
+        "name": "skywrath_mage",
+        "url": "https://dota2.fandom.com/wiki/Skywrath_Mage"
+    },
+    {
+        "name": "oracle",
+        "url": "https://dota2.fandom.com/wiki/Oracle"
+    },
+    {
+        "name": "techies",
+        "url": "https://dota2.fandom.com/wiki/Techies"
+    },
+    {
+        "name": "phoenix",
+        "url": "https://dota2.fandom.com/wiki/Phoenix"
+    },
+    {
+        "name": "mars",
+        "url": "https://dota2.fandom.com/wiki/Mars"
+    },
+    {
+        "name": "snapfire",
+        "url": "https://dota2.fandom.com/wiki/Snapfire"
+    },
+    {
+        "name": "pangolier",
+        "url": "https://dota2.fandom.com/wiki/Pangolier"
+    },
+    {
+        "name": "dark_willow",
+        "url": "https://dota2.fandom.com/wiki/Dark_Willow"
+    },
+    {
+        "name": "void_spirit",
+        "url": "https://dota2.fandom.com/wiki/Void_Spirit"
+    },
+    {
+        "name": "axe",
+        "url": "https://dota2.fandom.com/wiki/Axe"
+    },
+    {
+        "name": "pudge",
+        "url": "https://dota2.fandom.com/wiki/Pudge"
+    },
+    {
+        "name": "sand_king",
+        "url": "https://dota2.fandom.com/wiki/Sand_King"
+    },
+    {
+        "name": "slardar",
+        "url": "https://dota2.fandom.com/wiki/Slardar"
+    },
+    {
+        "name": "bloodseeker",
+        "url": "https://dota2.fandom.com/wiki/Bloodseeker"
+    },
+    {
+        "name": "shadow_fiend",
+        "url": "https://dota2.fandom.com/wiki/Shadow_Fiend"
+    },
+    {
+        "name": "razor",
+        "url": "https://dota2.fandom.com/wiki/Razor"
+    },
+    {
+        "name": "venomancer",
+        "url": "https://dota2.fandom.com/wiki/Venomancer"
+    },
+    {
+        "name": "bane",
+        "url": "https://dota2.fandom.com/wiki/Bane"
+    },
+    {
+        "name": "lich",
+        "url": "https://dota2.fandom.com/wiki/Lich"
+    },
+    {
+        "name": "lion",
+        "url": "https://dota2.fandom.com/wiki/Lion"
+    },
+    {
+        "name": "witch_doctor",
+        "url": "https://dota2.fandom.com/wiki/Witch_Doctor"
+    },
+    {
+        "name": "tidehunter",
+        "url": "https://dota2.fandom.com/wiki/Tidehunter"
+    },
+    {
+        "name": "wraith_king",
+        "url": "https://dota2.fandom.com/wiki/Wraith_King"
+    },
+    {
+        "name": "lifestealer",
+        "url": "https://dota2.fandom.com/wiki/Lifestealer"
+    },
+    {
+        "name": "night_stalker",
+        "url": "https://dota2.fandom.com/wiki/Night_Stalker"
+    },
+    {
+        "name": "faceless_void",
+        "url": "https://dota2.fandom.com/wiki/Faceless_Void"
+    },
+    {
+        "name": "phantom_assassin",
+        "url": "https://dota2.fandom.com/wiki/Phantom_Assassin"
+    },
+    {
+        "name": "viper",
+        "url": "https://dota2.fandom.com/wiki/Viper"
+    },
+    {
+        "name": "clinkz",
+        "url": "https://dota2.fandom.com/wiki/Clinkz"
+    },
+    {
+        "name": "enigma",
+        "url": "https://dota2.fandom.com/wiki/Enigma"
+    },
+    {
+        "name": "necrophos",
+        "url": "https://dota2.fandom.com/wiki/Necrophos"
+    },
+    {
+        "name": "warlock",
+        "url": "https://dota2.fandom.com/wiki/Warlock"
+    },
+    {
+        "name": "queen_of_pain",
+        "url": "https://dota2.fandom.com/wiki/Queen_of_Pain"
+    },
+    {
+        "name": "doom",
+        "url": "https://dota2.fandom.com/wiki/Doom"
+    },
+    {
+        "name": "spirit_breaker",
+        "url": "https://dota2.fandom.com/wiki/Spirit_Breaker"
+    },
+    {
+        "name": "lycan",
+        "url": "https://dota2.fandom.com/wiki/Lycan"
+    },
+    {
+        "name": "chaos_knight",
+        "url": "https://dota2.fandom.com/wiki/Chaos_Knight"
+    },
+    {
+        "name": "broodmother",
+        "url": "https://dota2.fandom.com/wiki/Broodmother"
+    },
+    {
+        "name": "weaver",
+        "url": "https://dota2.fandom.com/wiki/Weaver"
+    },
+    {
+        "name": "spectre",
+        "url": "https://dota2.fandom.com/wiki/Spectre"
+    },
+    {
+        "name": "meepo",
+        "url": "https://dota2.fandom.com/wiki/Meepo"
+    },
+    {
+        "name": "death_prophet",
+        "url": "https://dota2.fandom.com/wiki/Death_Prophet"
+    },
+    {
+        "name": "pugna",
+        "url": "https://dota2.fandom.com/wiki/Pugna"
+    },
+    {
+        "name": "dazzle",
+        "url": "https://dota2.fandom.com/wiki/Dazzle"
+    },
+    {
+        "name": "leshrac",
+        "url": "https://dota2.fandom.com/wiki/Leshrac"
+    },
+    {
+        "name": "undying",
+        "url": "https://dota2.fandom.com/wiki/Undying"
+    },
+    {
+        "name": "magnus",
+        "url": "https://dota2.fandom.com/wiki/Magnus"
+    },
+    {
+        "name": "abaddon",
+        "url": "https://dota2.fandom.com/wiki/Abaddon"
+    },
+    {
+        "name": "underlord",
+        "url": "https://dota2.fandom.com/wiki/Underlord"
+    },
+    {
+        "name": "nyx_assassin",
+        "url": "https://dota2.fandom.com/wiki/Nyx_Assassin"
+    },
+    {
+        "name": "slark",
+        "url": "https://dota2.fandom.com/wiki/Slark"
+    },
+    {
+        "name": "medusa",
+        "url": "https://dota2.fandom.com/wiki/Medusa"
+    },
+    {
+        "name": "terrorblade",
+        "url": "https://dota2.fandom.com/wiki/Terrorblade"
+    },
+    {
+        "name": "dark_seer",
+        "url": "https://dota2.fandom.com/wiki/Dark_Seer"
+    },
+    {
+        "name": "batrider",
+        "url": "https://dota2.fandom.com/wiki/Batrider"
+    },
+    {
+        "name": "ancient_apparition",
+        "url": "https://dota2.fandom.com/wiki/Ancient_Apparition"
+    },
+    {
+        "name": "invoker",
+        "url": "https://dota2.fandom.com/wiki/Invoker"
+    },
+    {
+        "name": "arc_warden",
+        "url": "https://dota2.fandom.com/wiki/Arc_Warden"
+    },
+    {
+        "name": "outworld_destroyer",
+        "url": "https://dota2.fandom.com/wiki/Outworld_Destroyer"
+    },
+    {
+        "name": "shadow_demon",
+        "url": "https://dota2.fandom.com/wiki/Shadow_Demon"
+    },
+    {
+        "name": "visage",
+        "url": "https://dota2.fandom.com/wiki/Visage"
+    },
+    {
+        "name": "winter_wyvern",
+        "url": "https://dota2.fandom.com/wiki/Winter_Wyvern"
+    },
+    {
+        "name": "grimstroke",
+        "url": "https://dota2.fandom.com/wiki/Grimstroke"
+    }
+]

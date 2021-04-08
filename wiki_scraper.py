@@ -112,9 +112,18 @@ def generate_prolog(heros, counters, synergies):
             line = f'prop({s[0]}, synergizes, {s[1]}).\n'
             outfile.write(line)
 
+def generate_json(heros, counters, synergies):
+    with open('heros.json', 'w') as outfile:
+        json.dump(heros, outfile, indent=4)
+    with open('counters.json', 'w') as outfile:
+        json.dump(sorted(counters), outfile, indent=4)
+    with open('synergies.json', 'w') as outfile:
+        json.dump(sorted(synergies), outfile, indent=4)
+
 if __name__ == '__main__':
     # test_url = 'https://dota2.fandom.com/wiki/Grimstroke'
     # scrape_counters_and_synergies("grimstroke", test_url)
     heros, counters, synergies = scrape_heros()
     generate_prolog(heros, counters, synergies)
+    generate_json(heros, counters, synergies)
 
