@@ -9,7 +9,7 @@
             "legion_commander",
             "meepo",
             "naga_siren",
-            "nature's_prophet",
+            "natures_prophet",
             "phantom_lancer",
             "spirit_breaker"
         ],
@@ -266,7 +266,7 @@
             "ursa"
         ],
         "synergy": [
-            "nature's_prophet",
+            "natures_prophet",
             "hoodwink"
         ]
     },
@@ -286,7 +286,7 @@
         ],
         "synergy": [
             "lifestealer",
-            "nature's_prophet",
+            "natures_prophet",
             "phantom_assassin",
             "spirit_breaker",
             "sven",
@@ -339,9 +339,7 @@
             "invoker",
             "lifestealer",
             "mirana",
-            "shadow_demon",
-            "",
-            "bloodseeker"
+            "shadow_demon"
         ]
     },
     {
@@ -520,7 +518,7 @@
         "url": "https://dota2.fandom.com/wiki/Shadow_Shaman",
         "counters": [
             "huskar",
-            "nature's_prophet",
+            "natures_prophet",
             "spirit_breaker",
             "templar_assassin",
             "terrorblade",
@@ -549,7 +547,7 @@
         "synergy": [
             "faceless_void",
             "kunkka",
-            "nature's_prophet",
+            "natures_prophet",
             "spirit_breaker",
             "bloodseeker",
             "keeper_of_the_light",
@@ -566,7 +564,7 @@
             "dragon_knight",
             "earthshaker",
             "ember_spirit",
-            "nature's_prophet",
+            "natures_prophet",
             "phoenix"
         ],
         "synergy": [
@@ -586,7 +584,7 @@
         "url": "https://dota2.fandom.com/wiki/Alchemist",
         "counters": [
             "broodmother",
-            "nature's_prophet",
+            "natures_prophet",
             "phoenix",
             "undying",
             "huskar"
@@ -629,7 +627,7 @@
             "keeper_of_the_light",
             "crystal_maiden",
             "mirana",
-            "nature's_prophet",
+            "natures_prophet",
             "pudge",
             "sven",
             "warlock"
@@ -706,14 +704,14 @@
         ],
         "synergy": [
             "invoker",
-            "nature's_prophet",
+            "natures_prophet",
             "tinker",
             "spectre",
             "zeus"
         ]
     },
     {
-        "name": "nature's_prophet",
+        "name": "natures_prophet",
         "url": "https://dota2.fandom.com/wiki/Nature%27s_Prophet",
         "counters": [
             "lich",
@@ -763,7 +761,7 @@
             "chen",
             "chaos_knight",
             "meepo",
-            "nature's_prophet",
+            "natures_prophet",
             "phantom_lancer",
             "riki",
             "templar_assassin",
@@ -801,7 +799,7 @@
         "counters": [
             "drow_ranger",
             "meepo",
-            "nature's_prophet",
+            "natures_prophet",
             "phoenix",
             "pudge",
             "underlord"
@@ -851,7 +849,7 @@
             "chaos_knight",
             "meepo",
             "monkey_king",
-            "nature's_prophet",
+            "natures_prophet",
             "phantom_assassin",
             "phantom_lancer",
             "razor",
@@ -952,7 +950,7 @@
         "synergy": [
             "elder_titan",
             "monkey_king",
-            "nature's_prophet",
+            "natures_prophet",
             "windranger",
             "invoker",
             "disruptor",
@@ -964,7 +962,7 @@
         "name": "lone_druid",
         "url": "https://dota2.fandom.com/wiki/Lone_Druid",
         "counters": [
-            "nature's_prophet",
+            "natures_prophet",
             "silencer"
         ],
         "synergy": [
@@ -1005,7 +1003,7 @@
         "counters": [
             "earthshaker",
             "io",
-            "nature's_prophet",
+            "natures_prophet",
             "templar_assassin",
             "weaver"
         ],
@@ -1158,7 +1156,7 @@
         "counters": [
             "abaddon",
             "omniknight",
-            "nature's_prophet",
+            "natures_prophet",
             "legion_commander",
             "templar_assassin",
             "crystal_maiden",
@@ -1208,7 +1206,7 @@
             "chaos_knight",
             "terrorblade",
             "crystal_maiden",
-            "nature's_prophet",
+            "natures_prophet",
             "phantom_lancer"
         ],
         "synergy": [
@@ -1226,7 +1224,7 @@
             "faceless_void",
             "omniknight",
             "meepo",
-            "nature's_prophet",
+            "natures_prophet",
             "shadow_fiend",
             "spectre",
             "silencer",
@@ -1243,7 +1241,7 @@
             "keeper_of_the_light",
             "magnus",
             "mars",
-            "nature's_prophet",
+            "natures_prophet",
             "oracle",
             "puck",
             "treant_protector"
@@ -1486,7 +1484,7 @@
             "dazzle",
             "huskar",
             "morphling",
-            "nature's_prophet",
+            "natures_prophet",
             "phantom_assassin",
             "phantom_lancer",
             "slark",
@@ -1540,7 +1538,7 @@
         "counters": [
             "broodmother",
             "meepo",
-            "nature's_prophet",
+            "natures_prophet",
             "phantom_assassin",
             "slark",
             "templar_assassin"
@@ -1608,7 +1606,7 @@
             "invoker",
             "jakiro",
             "magnus",
-            "nature's_prophet",
+            "natures_prophet",
             "phoenix",
             "queen_of_pain",
             "venomancer",
@@ -1622,7 +1620,7 @@
         "counters": [
             "clockwerk",
             "meepo",
-            "nature's_prophet",
+            "natures_prophet",
             "silencer",
             "slark"
         ],
@@ -1871,7 +1869,7 @@
             "anti-mage",
             "crystal_maiden",
             "dazzle",
-            "nature's_prophet",
+            "natures_prophet",
             "riki",
             "sniper"
         ],
@@ -1934,7 +1932,7 @@
             "anti-mage",
             "ember_spirit",
             "huskar",
-            "nature's_prophet",
+            "natures_prophet",
             "viper"
         ],
         "synergy": [
@@ -2069,7 +2067,7 @@
         "counters": [
             "anti-mage",
             "clinkz",
-            "nature's_prophet",
+            "natures_prophet",
             "tinker"
         ],
         "synergy": [
@@ -2126,7 +2124,7 @@
             "drow_ranger",
             "enchantress",
             "medusa",
-            "nature's_prophet",
+            "natures_prophet",
             "phantom_assassin",
             "sniper",
             "treant_protector"
@@ -2167,7 +2165,7 @@
             "earthshaker",
             "lina",
             "magnus",
-            "nature's_prophet",
+            "natures_prophet",
             "phantom_assassin",
             "rubick",
             "sniper",
@@ -2218,7 +2216,7 @@
             "invoker",
             "morphling",
             "timbersaw",
-            "nature's_prophet"
+            "natures_prophet"
         ],
         "synergy": [
             "enigma",
@@ -2292,7 +2290,7 @@
         "name": "undying",
         "url": "https://dota2.fandom.com/wiki/Undying",
         "counters": [
-            "nature's_prophet",
+            "natures_prophet",
             "spectre",
             "ogre_magi",
             "centaur_warrunner",
@@ -2553,7 +2551,7 @@
             "disruptor",
             "luna",
             "magnus",
-            "nature's_prophet",
+            "natures_prophet",
             "faceless_void",
             "legion_commander"
         ]
@@ -2621,7 +2619,7 @@
         "url": "https://dota2.fandom.com/wiki/Visage",
         "counters": [
             "clockwerk",
-            "nature's_prophet",
+            "natures_prophet",
             "puck",
             "pudge",
             "shadow_shaman",
