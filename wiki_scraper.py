@@ -62,6 +62,14 @@ def standardize(name):
     return name.replace(' ', '_').replace("'", '').lower()
 
 def generate_prolog(heros):
+    # heros
+    with open('heros.pl', 'w') as outfile:
+        for h in heros:
+            name = h['name']
+            line = f'prop({name}, type, hero).\n'
+            outfile.write(line)
+
+    # counters and synergies
     with open('counters_and_synergies.pl', 'w') as outfile:
         for h in heros:
             name = h['name']
