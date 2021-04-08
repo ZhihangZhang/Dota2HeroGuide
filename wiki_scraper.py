@@ -22,16 +22,16 @@ def scrape_heros():
 
     # scrape heros that a hero counters or synergizes with
     for h in heros:
-        c, s = scrape_counters_and_synergy(h['url'])
+        c, s = scrape_counters_and_synergies(h['url'])
         h['counters'] = c
-        h['synergy'] = s
+        h['synergies'] = s
 
     return heros
 
 
-def scrape_counters_and_synergy(url):
+def scrape_counters_and_synergies(url):
     counters = []
-    synergy = []
+    synergies = []
     full_url = url + '/Counters'
     page = requests.get(full_url)
     soup = BeautifulSoup(page.content, 'html.parser')
@@ -50,33 +50,33 @@ def scrape_counters_and_synergy(url):
     for s in siblings:
         cs = s.select('b a')
         for c in cs:
-            synergy.append(standardize(c.get_text()))
+            synergies.append(standardize(c.get_text()))
         if s.name == 'h2' or s.name == 'p' or s.name == 'h3' :
             break
 
     # pp.pprint(counters)
-    # pp.pprint(synergy)
-    return (counters, synergy)
+    # pp.pprint(synergies)
+    return (counters, synergies)
 
 def standardize(name):
     return name.replace(' ', '_').replace("'", '').lower()
 
 def generate_prolog(heros):
-    with open('counters_and_synergy.pl', 'w') as outfile:
+    with open('counters_and_synergies.pl', 'w') as outfile:
         for h in heros:
             name = h['name']
             outfile.write(f'% {name}\n')
             for c in h['counters']:
                 line = f'prop({name}, counters, {c}).\n'
                 outfile.write(line)
-            for c in h['synergy']:
+            for c in h['synergies']:
                 line = f'prop({name}, synergizes, {c}).\n'
                 outfile.write(line)
             outfile.write('\n')
 
 if __name__ == '__main__':
     # test_url = 'https://dota2.fandom.com/wiki/Grimstroke'
-    # scrape_counters_and_synergy(test_url)
+    # scrape_counters_and_synergies(test_url)
     heros = scrape_heros()
 
     # dump as json

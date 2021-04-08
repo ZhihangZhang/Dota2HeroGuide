@@ -13,7 +13,7 @@
             "phantom_lancer",
             "spirit_breaker"
         ],
-        "synergy": [
+        "synergies": [
             "dark_seer",
             "enigma",
             "magnus",
@@ -38,7 +38,7 @@
             "phantom_lancer",
             "warlock"
         ],
-        "synergy": [
+        "synergies": [
             "crystal_maiden",
             "dark_seer",
             "enigma",
@@ -57,7 +57,7 @@
             "meepo",
             "naga_siren"
         ],
-        "synergy": [
+        "synergies": [
             "bloodseeker",
             "earthshaker",
             "io",
@@ -82,7 +82,7 @@
             "sand_king",
             "warlock"
         ],
-        "synergy": [
+        "synergies": [
             "dark_seer",
             "faceless_void",
             "huskar",
@@ -115,7 +115,7 @@
             "wraith_king",
             "zeus"
         ],
-        "synergy": [
+        "synergies": [
             "bane",
             "bounty_hunter",
             "dazzle",
@@ -141,7 +141,7 @@
             "monkey_king",
             "rubick"
         ],
-        "synergy": [
+        "synergies": [
             "visage",
             "windranger",
             "vengeful_spirit",
@@ -164,7 +164,7 @@
             "templar_assassin",
             "zeus"
         ],
-        "synergy": [
+        "synergies": [
             "crystal_maiden",
             "lich",
             "dazzle",
@@ -183,7 +183,7 @@
             "techies",
             "witch_doctor"
         ],
-        "synergy": [
+        "synergies": [
             "axe",
             "bane",
             "batrider",
@@ -201,7 +201,7 @@
             "phantom_assassin",
             "templar_assassin"
         ],
-        "synergy": [
+        "synergies": [
             "juggernaut",
             "timbersaw",
             "sven"
@@ -219,7 +219,7 @@
             "sniper",
             "terrorblade"
         ],
-        "synergy": [
+        "synergies": [
             "dark_willow",
             "magnus",
             "enigma",
@@ -248,7 +248,7 @@
             "viper",
             "weaver"
         ],
-        "synergy": [
+        "synergies": [
             "keeper_of_the_light",
             "omniknight",
             "lifestealer"
@@ -265,7 +265,7 @@
             "pudge",
             "ursa"
         ],
-        "synergy": [
+        "synergies": [
             "natures_prophet",
             "hoodwink"
         ]
@@ -284,7 +284,7 @@
             "ursa",
             "wraith_king"
         ],
-        "synergy": [
+        "synergies": [
             "lifestealer",
             "natures_prophet",
             "phantom_assassin",
@@ -308,7 +308,7 @@
             "templar_assassin",
             "witch_doctor"
         ],
-        "synergy": [
+        "synergies": [
             "chen",
             "crystal_maiden",
             "enigma",
@@ -334,7 +334,7 @@
             "tinker",
             "windranger"
         ],
-        "synergy": [
+        "synergies": [
             "dark_seer",
             "invoker",
             "lifestealer",
@@ -353,7 +353,7 @@
             "legion_commander",
             "winter_wyvern"
         ],
-        "synergy": [
+        "synergies": [
             "clockwerk",
             "crystal_maiden",
             "keeper_of_the_light",
@@ -374,7 +374,7 @@
             "razor",
             "sniper"
         ],
-        "synergy": [
+        "synergies": [
             "drow_ranger",
             "earthshaker",
             "tiny",
@@ -404,7 +404,7 @@
             "visage",
             "wraith_king"
         ],
-        "synergy": [
+        "synergies": [
             "bane",
             "crystal_maiden",
             "dazzle",
@@ -429,7 +429,7 @@
             "meepo",
             "monkey_king"
         ],
-        "synergy": [
+        "synergies": [
             "techies",
             "shadow_fiend",
             "slardar",
@@ -458,7 +458,7 @@
             "ursa",
             "weaver"
         ],
-        "synergy": [
+        "synergies": [
             "faceless_void",
             "lifestealer",
             "meepo",
@@ -481,7 +481,7 @@
             "necrophos",
             "tinker"
         ],
-        "synergy": [
+        "synergies": [
             "ancient_apparition",
             "bloodseeker",
             "dazzle",
@@ -505,7 +505,7 @@
             "treant_protector",
             "venomancer"
         ],
-        "synergy": [
+        "synergies": [
             "shadow_demon",
             "sven",
             "pugna",
@@ -524,7 +524,7 @@
             "terrorblade",
             "weaver"
         ],
-        "synergy": [
+        "synergies": [
             "juggernaut",
             "ursa",
             "troll_warlord",
@@ -544,7 +544,7 @@
             "terrorblade",
             "timbersaw"
         ],
-        "synergy": [
+        "synergies": [
             "faceless_void",
             "kunkka",
             "natures_prophet",
@@ -567,7 +567,7 @@
             "natures_prophet",
             "phoenix"
         ],
-        "synergy": [
+        "synergies": [
             "ancient_apparition",
             "beastmaster",
             "dazzle",
@@ -589,7 +589,7 @@
             "undying",
             "huskar"
         ],
-        "synergy": [
+        "synergies": [
             "oracle"
         ]
     },
@@ -605,7 +605,7 @@
             "templar_assassin",
             "ursa"
         ],
-        "synergy": [
+        "synergies": [
             "dazzle",
             "oracle",
             "tiny",
@@ -623,7 +623,7 @@
             "drow_ranger",
             "phantom_assassin"
         ],
-        "synergy": [
+        "synergies": [
             "keeper_of_the_light",
             "crystal_maiden",
             "mirana",
@@ -645,7 +645,7 @@
             "shadow_fiend",
             "undying"
         ],
-        "synergy": [
+        "synergies": [
             "grimstroke",
             "ogre_magi",
             "lich",
@@ -660,7 +660,7 @@
             "zeus",
             "puck"
         ],
-        "synergy": [
+        "synergies": [
             "slardar",
             "elder_titan",
             "vengeful_spirit"
@@ -685,7 +685,7 @@
             "underlord",
             "winter_wyvern"
         ],
-        "synergy": [
+        "synergies": [
             "crystal_maiden",
             "keeper_of_the_light",
             "night_stalker",
@@ -702,7 +702,7 @@
             "shadow_fiend",
             "pudge"
         ],
-        "synergy": [
+        "synergies": [
             "invoker",
             "natures_prophet",
             "tinker",
@@ -721,7 +721,7 @@
             "venomancer",
             "weaver"
         ],
-        "synergy": [
+        "synergies": [
             "bloodseeker",
             "invoker",
             "lycan",
@@ -745,7 +745,7 @@
             "beastmaster",
             "ursa"
         ],
-        "synergy": [
+        "synergies": [
             "legion_commander",
             "lich",
             "io",
@@ -767,7 +767,7 @@
             "templar_assassin",
             "treant_protector"
         ],
-        "synergy": [
+        "synergies": [
             "dark_seer",
             "faceless_void",
             "kunkka",
@@ -788,7 +788,7 @@
             "bane",
             "shadow_shaman"
         ],
-        "synergy": [
+        "synergies": [
             "vengeful_spirit",
             "lycan"
         ]
@@ -804,7 +804,7 @@
             "pudge",
             "underlord"
         ],
-        "synergy": [
+        "synergies": [
             "chaos_knight",
             "gyrocopter",
             "juggernaut",
@@ -829,7 +829,7 @@
             "sniper",
             "windranger"
         ],
-        "synergy": [
+        "synergies": [
             "abaddon",
             "dark_seer",
             "mirana",
@@ -857,7 +857,7 @@
             "terrorblade",
             "treant_protector"
         ],
-        "synergy": [
+        "synergies": [
             "bounty_hunter",
             "crystal_maiden",
             "enigma",
@@ -883,7 +883,7 @@
             "rubick",
             "sand_king"
         ],
-        "synergy": [
+        "synergies": [
             "crystal_maiden",
             "dazzle",
             "drow_ranger",
@@ -905,7 +905,7 @@
             "underlord",
             "pudge"
         ],
-        "synergy": [
+        "synergies": [
             "io",
             "disruptor",
             "shadow_shaman",
@@ -923,7 +923,7 @@
             "chaos_knight",
             "terrorblade"
         ],
-        "synergy": [
+        "synergies": [
             "bloodseeker",
             "disruptor",
             "earthshaker",
@@ -947,7 +947,7 @@
             "phantom_lancer",
             "morphling"
         ],
-        "synergy": [
+        "synergies": [
             "elder_titan",
             "monkey_king",
             "natures_prophet",
@@ -965,7 +965,7 @@
             "natures_prophet",
             "silencer"
         ],
-        "synergy": [
+        "synergies": [
             "beastmaster",
             "lycan",
             "ogre_magi",
@@ -989,7 +989,7 @@
             "windranger",
             "zeus"
         ],
-        "synergy": [
+        "synergies": [
             "slardar",
             "crystal_maiden",
             "anti-mage",
@@ -1007,7 +1007,7 @@
             "templar_assassin",
             "weaver"
         ],
-        "synergy": [
+        "synergies": [
             "grimstroke",
             "juggernaut",
             "shadow_fiend",
@@ -1036,7 +1036,7 @@
             "winter_wyvern",
             "witch_doctor"
         ],
-        "synergy": [
+        "synergies": [
             "alchemist",
             "crystal_maiden",
             "morphling"
@@ -1053,7 +1053,7 @@
             "storm_spirit",
             "tidehunter"
         ],
-        "synergy": [
+        "synergies": [
             "zeus",
             "anti-mage",
             "keeper_of_the_light",
@@ -1076,7 +1076,7 @@
             "viper",
             "monkey_king"
         ],
-        "synergy": [
+        "synergies": [
             "omniknight",
             "axe",
             "juggernaut",
@@ -1098,7 +1098,7 @@
             "terrorblade",
             "viper"
         ],
-        "synergy": [
+        "synergies": [
             "disruptor",
             "faceless_void",
             "kunkka",
@@ -1122,7 +1122,7 @@
             "terrorblade",
             "weaver"
         ],
-        "synergy": [
+        "synergies": [
             "ancient_apparition",
             "disruptor",
             "invoker",
@@ -1146,7 +1146,7 @@
             "templar_assassin",
             "enigma"
         ],
-        "synergy": [
+        "synergies": [
             "alchemist"
         ]
     },
@@ -1169,7 +1169,7 @@
             "rubick",
             "lone_druid"
         ],
-        "synergy": [
+        "synergies": [
             "dazzle",
             "disruptor",
             "kunkka",
@@ -1191,7 +1191,7 @@
             "sven",
             "undying"
         ],
-        "synergy": [
+        "synergies": [
             "ogre_magi",
             "slardar",
             "vengeful_spirit"
@@ -1209,7 +1209,7 @@
             "natures_prophet",
             "phantom_lancer"
         ],
-        "synergy": [
+        "synergies": [
             "magnus",
             "keeper_of_the_light",
             "dazzle",
@@ -1233,7 +1233,7 @@
             "skywrath_mage",
             "witch_doctor"
         ],
-        "synergy": [
+        "synergies": [
             "beastmaster",
             "crystal_maiden",
             "dark_seer",
@@ -1254,7 +1254,7 @@
             "monkey_king",
             "wraith_king"
         ],
-        "synergy": [
+        "synergies": [
             "mars",
             "medusa",
             "lina",
@@ -1273,7 +1273,7 @@
             "vengeful_spirit",
             "winter_wyvern"
         ],
-        "synergy": [
+        "synergies": [
             "faceless_void",
             "undying",
             "centaur_warrunner",
@@ -1298,7 +1298,7 @@
             "dark_seer",
             "techies"
         ],
-        "synergy": [
+        "synergies": [
             "alchemist",
             "ancient_apparition",
             "death_prophet",
@@ -1324,7 +1324,7 @@
             "morphling",
             "tinker"
         ],
-        "synergy": [
+        "synergies": [
             "batrider",
             "crystal_maiden",
             "magnus",
@@ -1345,7 +1345,7 @@
             "ancient_apparition",
             "shadow_demon"
         ],
-        "synergy": [
+        "synergies": [
             "enigma",
             "faceless_void",
             "invoker",
@@ -1372,7 +1372,7 @@
             "terrorblade",
             "weaver"
         ],
-        "synergy": [
+        "synergies": [
             "dark_seer",
             "huskar",
             "crystal_maiden",
@@ -1397,7 +1397,7 @@
             "omniknight",
             "faceless_void"
         ],
-        "synergy": [
+        "synergies": [
             "faceless_void",
             "oracle",
             "warlock",
@@ -1415,7 +1415,7 @@
             "templar_assassin",
             "visage"
         ],
-        "synergy": [
+        "synergies": [
             "abaddon",
             "batrider",
             "clockwerk",
@@ -1439,7 +1439,7 @@
             "troll_warlord",
             "windranger"
         ],
-        "synergy": [
+        "synergies": [
             "mars",
             "rubick",
             "ember_spirit",
@@ -1465,7 +1465,7 @@
             "monkey_king",
             "windranger"
         ],
-        "synergy": [
+        "synergies": [
             "keeper_of_the_light",
             "pudge",
             "pugna",
@@ -1492,7 +1492,7 @@
             "troll_warlord",
             "weaver"
         ],
-        "synergy": [
+        "synergies": [
             "ancient_apparition",
             "dark_seer",
             "dazzle",
@@ -1521,7 +1521,7 @@
             "tinker",
             "zeus"
         ],
-        "synergy": [
+        "synergies": [
             "techies",
             "pugna",
             "outworld_destroyer",
@@ -1543,7 +1543,7 @@
             "slark",
             "templar_assassin"
         ],
-        "synergy": [
+        "synergies": [
             "crystal_maiden",
             "keeper_of_the_light",
             "tidehunter",
@@ -1566,7 +1566,7 @@
             "legion_commander",
             "pudge"
         ],
-        "synergy": [
+        "synergies": [
             "bounty_hunter",
             "vengeful_spirit",
             "shadow_fiend",
@@ -1597,7 +1597,7 @@
             "weaver",
             "windranger"
         ],
-        "synergy": [
+        "synergies": [
             "ancient_apparition",
             "batrider",
             "bounty_hunter",
@@ -1624,7 +1624,7 @@
             "silencer",
             "slark"
         ],
-        "synergy": [
+        "synergies": [
             "bane",
             "clockwerk",
             "enigma",
@@ -1649,7 +1649,7 @@
             "troll_warlord",
             "windranger"
         ],
-        "synergy": [
+        "synergies": [
             "death_prophet",
             "shadow_demon",
             "outworld_destroyer",
@@ -1672,7 +1672,7 @@
             "techies",
             "windranger"
         ],
-        "synergy": [
+        "synergies": [
             "ancient_apparition",
             "undying",
             "viper"
@@ -1687,7 +1687,7 @@
             "medusa",
             "phantom_assassin"
         ],
-        "synergy": [
+        "synergies": [
             "grimstroke",
             "kunkka",
             "mirana",
@@ -1704,7 +1704,7 @@
             "chaos_knight",
             "lone_druid"
         ],
-        "synergy": [
+        "synergies": [
             "magnus",
             "warlock",
             "treant_protector",
@@ -1727,7 +1727,7 @@
             "weaver",
             "wraith_king"
         ],
-        "synergy": [
+        "synergies": [
             "pugna",
             "anti-mage",
             "centaur_warrunner",
@@ -1747,7 +1747,7 @@
             "venomancer",
             "viper"
         ],
-        "synergy": [
+        "synergies": [
             "enigma",
             "faceless_void",
             "lich",
@@ -1766,7 +1766,7 @@
             "phantom_lancer",
             "windranger"
         ],
-        "synergy": [
+        "synergies": [
             "underlord",
             "earthshaker",
             "elder_titan",
@@ -1785,7 +1785,7 @@
             "techies",
             "witch_doctor"
         ],
-        "synergy": [
+        "synergies": [
             "bloodseeker"
         ]
     },
@@ -1800,7 +1800,7 @@
             "tinker",
             "ogre_magi"
         ],
-        "synergy": [
+        "synergies": [
             "clockwerk",
             "queen_of_pain",
             "riki",
@@ -1823,7 +1823,7 @@
             "riki",
             "slark"
         ],
-        "synergy": [
+        "synergies": [
             "oracle",
             "luna",
             "magnus"
@@ -1848,7 +1848,7 @@
             "storm_spirit",
             "weaver"
         ],
-        "synergy": [
+        "synergies": [
             "dark_seer",
             "disruptor",
             "enigma",
@@ -1873,7 +1873,7 @@
             "riki",
             "sniper"
         ],
-        "synergy": [
+        "synergies": [
             "ancient_apparition",
             "beastmaster",
             "magnus",
@@ -1907,7 +1907,7 @@
             "visage",
             "zeus"
         ],
-        "synergy": [
+        "synergies": [
             "abaddon",
             "beastmaster",
             "clockwerk",
@@ -1935,7 +1935,7 @@
             "natures_prophet",
             "viper"
         ],
-        "synergy": [
+        "synergies": [
             "drow_ranger",
             "omniknight",
             "vengeful_spirit"
@@ -1954,7 +1954,7 @@
             "naga_siren",
             "omniknight"
         ],
-        "synergy": [
+        "synergies": [
             "ancient_apparition",
             "lich",
             "axe",
@@ -1984,7 +1984,7 @@
             "sven",
             "tidehunter"
         ],
-        "synergy": [
+        "synergies": [
             "abaddon",
             "axe",
             "earthshaker",
@@ -2003,7 +2003,7 @@
             "shadow_fiend",
             "enigma"
         ],
-        "synergy": [
+        "synergies": [
             "sven",
             "bloodseeker",
             "axe",
@@ -2024,7 +2024,7 @@
             "huskar",
             "slark"
         ],
-        "synergy": [
+        "synergies": [
             "axe",
             "dark_seer",
             "enigma",
@@ -2053,7 +2053,7 @@
             "spectre",
             "arc_warden"
         ],
-        "synergy": [
+        "synergies": [
             "ancient_apparition",
             "crystal_maiden",
             "grimstroke",
@@ -2070,7 +2070,7 @@
             "natures_prophet",
             "tinker"
         ],
-        "synergy": [
+        "synergies": [
             "bloodseeker",
             "bounty_hunter",
             "io",
@@ -2089,7 +2089,7 @@
             "drow_ranger",
             "ursa"
         ],
-        "synergy": [
+        "synergies": [
             "beastmaster"
         ]
     },
@@ -2109,7 +2109,7 @@
             "ursa",
             "viper"
         ],
-        "synergy": [
+        "synergies": [
             "crystal_maiden",
             "keeper_of_the_light",
             "morphling",
@@ -2129,7 +2129,7 @@
             "sniper",
             "treant_protector"
         ],
-        "synergy": [
+        "synergies": [
             "beastmaster",
             "dazzle",
             "lifestealer"
@@ -2148,7 +2148,7 @@
             "ursa",
             "wraith_king"
         ],
-        "synergy": [
+        "synergies": [
             "crystal_maiden",
             "alchemist",
             "vengeful_spirit"
@@ -2172,7 +2172,7 @@
             "tinker",
             "windranger"
         ],
-        "synergy": [
+        "synergies": [
             "bloodseeker",
             "bounty_hunter",
             "chen",
@@ -2200,7 +2200,7 @@
             "spirit_breaker",
             "storm_spirit"
         ],
-        "synergy": [
+        "synergies": [
             "disruptor",
             "kunkka",
             "silencer",
@@ -2218,7 +2218,7 @@
             "timbersaw",
             "natures_prophet"
         ],
-        "synergy": [
+        "synergies": [
             "enigma",
             "faceless_void"
         ]
@@ -2239,7 +2239,7 @@
             "skywrath_mage",
             "troll_warlord"
         ],
-        "synergy": [
+        "synergies": [
             "grimstroke",
             "io",
             "legion_commander",
@@ -2258,7 +2258,7 @@
             "necrophos",
             "venomancer"
         ],
-        "synergy": [
+        "synergies": [
             "brewmaster",
             "broodmother",
             "huskar",
@@ -2279,7 +2279,7 @@
             "shadow_demon",
             "phantom_lancer"
         ],
-        "synergy": [
+        "synergies": [
             "dark_seer",
             "enigma",
             "magnus",
@@ -2298,7 +2298,7 @@
             "sven",
             "bristleback"
         ],
-        "synergy": [
+        "synergies": [
             "broodmother",
             "crystal_maiden",
             "morphling",
@@ -2319,7 +2319,7 @@
             "lifestealer",
             "phantom_lancer"
         ],
-        "synergy": [
+        "synergies": [
             "snapfire",
             "anti-mage",
             "enigma",
@@ -2347,7 +2347,7 @@
             "necrophos",
             "nyx_assassin"
         ],
-        "synergy": [
+        "synergies": [
             "storm_spirit",
             "phantom_assassin",
             "io",
@@ -2366,7 +2366,7 @@
             "templar_assassin",
             "phantom_lancer"
         ],
-        "synergy": [
+        "synergies": [
             "disruptor",
             "dragon_knight",
             "elder_titan",
@@ -2395,7 +2395,7 @@
             "storm_spirit",
             "tinker"
         ],
-        "synergy": [
+        "synergies": [
             "invoker",
             "legion_commander",
             "lifestealer",
@@ -2417,7 +2417,7 @@
             "templar_assassin",
             "warlock"
         ],
-        "synergy": [
+        "synergies": [
             "bane",
             "earthshaker",
             "luna",
@@ -2441,7 +2441,7 @@
             "visage",
             "spectre"
         ],
-        "synergy": [
+        "synergies": [
             "axe",
             "earthshaker",
             "keeper_of_the_light",
@@ -2466,7 +2466,7 @@
             "lifestealer",
             "witch_doctor"
         ],
-        "synergy": [
+        "synergies": [
             "dazzle",
             "oracle",
             "shadow_demon",
@@ -2484,7 +2484,7 @@
             "terrorblade",
             "venomancer"
         ],
-        "synergy": [
+        "synergies": [
             "bounty_hunter",
             "elder_titan",
             "enigma",
@@ -2505,7 +2505,7 @@
             "templar_assassin",
             "treant_protector"
         ],
-        "synergy": [
+        "synergies": [
             "ursa",
             "pugna",
             "skywrath_mage",
@@ -2526,7 +2526,7 @@
             "snapfire",
             "winter_wyvern"
         ],
-        "synergy": [
+        "synergies": [
             "faceless_void",
             "meepo",
             "necrophos",
@@ -2545,7 +2545,7 @@
             "medusa",
             "necrophos"
         ],
-        "synergy": [
+        "synergies": [
             "bloodseeker",
             "dark_seer",
             "disruptor",
@@ -2569,7 +2569,7 @@
             "drow_ranger",
             "enchantress"
         ],
-        "synergy": [
+        "synergies": [
             "ancient_apparition"
         ]
     },
@@ -2586,7 +2586,7 @@
             "timbersaw",
             "wraith_king"
         ],
-        "synergy": [
+        "synergies": [
             "ogre_magi",
             "silencer"
         ]
@@ -2607,7 +2607,7 @@
             "techies",
             "windranger"
         ],
-        "synergy": [
+        "synergies": [
             "ancient_apparition",
             "dazzle",
             "terrorblade",
@@ -2625,7 +2625,7 @@
             "shadow_shaman",
             "spectre"
         ],
-        "synergy": [
+        "synergies": [
             "slardar",
             "lifestealer",
             "beastmaster",
@@ -2643,7 +2643,7 @@
             "meepo",
             "troll_warlord"
         ],
-        "synergy": [
+        "synergies": [
             "dark_seer",
             "enigma",
             "magnus",
@@ -2664,7 +2664,7 @@
             "timbersaw",
             "weaver"
         ],
-        "synergy": [
+        "synergies": [
             "doom",
             "bane",
             "bloodseeker",
