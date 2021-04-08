@@ -6,6 +6,9 @@ import json
 pp = pprint.PrettyPrinter(indent=4)
 def scrape_heros():
     heros = []
+    counters = set()
+    synergies = set()
+
     base_url = 'https://dota2.fandom.com'
     full_url = base_url + '/wiki/Hero_Grid'
     page = requests.get(full_url)
@@ -22,35 +25,55 @@ def scrape_heros():
 
     # scrape heros that a hero counters or synergizes with
     for h in heros:
-        c, s = scrape_counters_and_synergies(h['url'])
-        h['counters'] = c
-        h['synergies'] = s
+        c, s = scrape_counters_and_synergies(h['name'], h['url'])
+        counters = counters | c
+        synergies = synergies | s
 
-    return heros
+    # pp.pprint(heros)
+    # pp.pprint(counters)
+    # pp.pprint(synergies)
+    return (heros, counters, synergies)
 
 
-def scrape_counters_and_synergies(url):
-    counters = []
-    synergies = []
+def scrape_counters_and_synergies(name, url):
+    counters = set()
+    synergies = set()
+
     full_url = url + '/Counters'
     page = requests.get(full_url)
     soup = BeautifulSoup(page.content, 'html.parser')
 
-    counter_heading = soup.select('span[id*="Good_against..."]')[0]
-    siblings = counter_heading.parent.findNextSiblings()
+    ba = soup.select('span[id*="Bad_against..."]')[0]
+    siblings = ba.parent.findNextSiblings()
     for s in siblings:
         cs = s.select('b a')
         for c in cs:
-            counters.append(standardize(c.get_text()))
+            other = standardize(c.get_text())
+            counters.add((other, name))
+
         if s.name == 'h2' or s.name == 'p' or s.name == 'h3' :
             break
 
-    synergy_heading = soup.select('span[id*="Works_well_with..."]')[0]
-    siblings = synergy_heading.parent.findNextSiblings()
+    ga = soup.select('span[id*="Good_against..."]')[0]
+    siblings = ga.parent.findNextSiblings()
     for s in siblings:
         cs = s.select('b a')
         for c in cs:
-            synergies.append(standardize(c.get_text()))
+            other = standardize(c.get_text())
+            counters.add((name, other))
+
+        if s.name == 'h2' or s.name == 'p' or s.name == 'h3' :
+            break
+
+    www = soup.select('span[id*="Works_well_with..."]')[0]
+    siblings = www.parent.findNextSiblings()
+    for s in siblings:
+        cs = s.select('b a')
+        for c in cs:
+            other = standardize(c.get_text())
+            # synergy is commutative
+            synergies.add((name, other))
+            synergies.add((other, name))
         if s.name == 'h2' or s.name == 'p' or s.name == 'h3' :
             break
 
@@ -61,7 +84,7 @@ def scrape_counters_and_synergies(url):
 def standardize(name):
     return name.replace(' ', '_').replace("'", '').lower()
 
-def generate_prolog(heros):
+def generate_prolog(heros, counters, synergies):
     # heros
     with open('heros.pl', 'w') as outfile:
         for h in heros:
@@ -71,25 +94,21 @@ def generate_prolog(heros):
 
     # counters and synergies
     with open('counters_and_synergies.pl', 'w') as outfile:
-        for h in heros:
-            name = h['name']
-            outfile.write(f'% {name}\n')
-            for c in h['counters']:
-                line = f'prop({name}, counters, {c}).\n'
-                outfile.write(line)
-            for c in h['synergies']:
-                line = f'prop({name}, synergizes, {c}).\n'
-                outfile.write(line)
-            outfile.write('\n')
+        outfile.write('% Counters\n')
+        for c in sorted(counters):
+            line = f'prop({c[0]}, counters, {c[1]}).\n'
+            outfile.write(line)
+
+        outfile.write('\n')
+
+        outfile.write('% Synergies\n')
+        for s in sorted(synergies):
+            line = f'prop({s[0]}, synergizes, {s[1]}).\n'
+            outfile.write(line)
 
 if __name__ == '__main__':
     # test_url = 'https://dota2.fandom.com/wiki/Grimstroke'
-    # scrape_counters_and_synergies(test_url)
-    heros = scrape_heros()
-
-    # dump as json
-    with open('heros.json', 'w') as outfile:
-        json.dump(heros, outfile, indent=4)
-
-    generate_prolog(heros)
+    # scrape_counters_and_synergies("grimstroke", test_url)
+    heros, counters, synergies = scrape_heros()
+    generate_prolog(heros, counters, synergies)
 

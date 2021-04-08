@@ -1,6 +1,3 @@
-% https://www.swi-prolog.org/FAQ/Multifile.html
-:- multifile prop/3.
-
 prop(earthshaker, type, hero).
 prop(sven, type, hero).
 prop(tiny, type, hero).
