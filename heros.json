@@ -1,0 +1,2685 @@
+[
+    {
+        "name": "earthshaker",
+        "url": "https://dota2.fandom.com/wiki/Earthshaker",
+        "counters": [
+            "broodmother",
+            "chaos_knight",
+            "enigma",
+            "legion_commander",
+            "meepo",
+            "naga_siren",
+            "nature's_prophet",
+            "phantom_lancer",
+            "spirit_breaker"
+        ],
+        "synergy": [
+            "dark_seer",
+            "enigma",
+            "magnus",
+            "naga_siren",
+            "puck",
+            "sand_king"
+        ]
+    },
+    {
+        "name": "sven",
+        "url": "https://dota2.fandom.com/wiki/Sven",
+        "counters": [
+            "anti-mage",
+            "broodmother",
+            "juggernaut",
+            "chaos_knight",
+            "chen",
+            "death_prophet",
+            "doom",
+            "meepo",
+            "pangolier",
+            "phantom_lancer",
+            "warlock"
+        ],
+        "synergy": [
+            "crystal_maiden",
+            "dark_seer",
+            "enigma",
+            "io",
+            "lion",
+            "magnus",
+            "oracle",
+            "shadow_shaman"
+        ]
+    },
+    {
+        "name": "tiny",
+        "url": "https://dota2.fandom.com/wiki/Tiny",
+        "counters": [
+            "broodmother",
+            "meepo",
+            "naga_siren"
+        ],
+        "synergy": [
+            "bloodseeker",
+            "earthshaker",
+            "io",
+            "magnus",
+            "enigma",
+            "slardar",
+            "tidehunter",
+            "pudge"
+        ]
+    },
+    {
+        "name": "kunkka",
+        "url": "https://dota2.fandom.com/wiki/Kunkka",
+        "counters": [
+            "chaos_knight",
+            "broodmother",
+            "lycan",
+            "meepo",
+            "phantom_lancer",
+            "queen_of_pain",
+            "spectre",
+            "sand_king",
+            "warlock"
+        ],
+        "synergy": [
+            "dark_seer",
+            "faceless_void",
+            "huskar",
+            "invoker",
+            "lifestealer",
+            "slark",
+            "warlock"
+        ]
+    },
+    {
+        "name": "anti-mage",
+        "url": "https://dota2.fandom.com/wiki/Anti-Mage",
+        "counters": [
+            "ancient_apparition",
+            "abaddon",
+            "arc_warden",
+            "bristleback",
+            "clockwerk",
+            "elder_titan",
+            "medusa",
+            "ogre_magi",
+            "phoenix",
+            "pugna",
+            "rubick",
+            "spectre",
+            "storm_spirit",
+            "tidehunter",
+            "undying",
+            "venomancer",
+            "wraith_king",
+            "zeus"
+        ],
+        "synergy": [
+            "bane",
+            "bounty_hunter",
+            "dazzle",
+            "dark_seer",
+            "lion",
+            "magnus",
+            "oracle",
+            "shadow_demon",
+            "slardar",
+            "treant_protector"
+        ]
+    },
+    {
+        "name": "drow_ranger",
+        "url": "https://dota2.fandom.com/wiki/Drow_Ranger",
+        "counters": [
+            "ember_spirit",
+            "dragon_knight",
+            "juggernaut",
+            "anti-mage",
+            "weaver",
+            "mirana",
+            "monkey_king",
+            "rubick"
+        ],
+        "synergy": [
+            "visage",
+            "windranger",
+            "vengeful_spirit",
+            "medusa",
+            "enigma",
+            "clockwerk"
+        ]
+    },
+    {
+        "name": "juggernaut",
+        "url": "https://dota2.fandom.com/wiki/Juggernaut",
+        "counters": [
+            "dark_willow",
+            "enchantress",
+            "invoker",
+            "keeper_of_the_light",
+            "necrophos",
+            "nyx_assassin",
+            "phoenix",
+            "templar_assassin",
+            "zeus"
+        ],
+        "synergy": [
+            "crystal_maiden",
+            "lich",
+            "dazzle",
+            "axe",
+            "shadow_shaman",
+            "venomancer",
+            "zeus"
+        ]
+    },
+    {
+        "name": "mirana",
+        "url": "https://dota2.fandom.com/wiki/Mirana",
+        "counters": [
+            "crystal_maiden",
+            "drow_ranger",
+            "techies",
+            "witch_doctor"
+        ],
+        "synergy": [
+            "axe",
+            "bane",
+            "batrider",
+            "clockwerk",
+            "shadow_demon",
+            "sven",
+            "underlord"
+        ]
+    },
+    {
+        "name": "crystal_maiden",
+        "url": "https://dota2.fandom.com/wiki/Crystal_Maiden",
+        "counters": [
+            "slark",
+            "phantom_assassin",
+            "templar_assassin"
+        ],
+        "synergy": [
+            "juggernaut",
+            "timbersaw",
+            "sven"
+        ]
+    },
+    {
+        "name": "puck",
+        "url": "https://dota2.fandom.com/wiki/Puck",
+        "counters": [
+            "void_spirit",
+            "pangolier",
+            "crystal_maiden",
+            "mirana",
+            "phoenix",
+            "sniper",
+            "terrorblade"
+        ],
+        "synergy": [
+            "dark_willow",
+            "magnus",
+            "enigma",
+            "invoker",
+            "kunkka",
+            "phoenix",
+            "witch_doctor"
+        ]
+    },
+    {
+        "name": "storm_spirit",
+        "url": "https://dota2.fandom.com/wiki/Storm_Spirit",
+        "counters": [
+            "ancient_apparition",
+            "arc_warden",
+            "bloodseeker",
+            "mars",
+            "monkey_king",
+            "phantom_lancer",
+            "razor",
+            "sniper",
+            "spectre",
+            "terrorblade",
+            "tinker",
+            "vengeful_spirit",
+            "viper",
+            "weaver"
+        ],
+        "synergy": [
+            "keeper_of_the_light",
+            "omniknight",
+            "lifestealer"
+        ]
+    },
+    {
+        "name": "windranger",
+        "url": "https://dota2.fandom.com/wiki/Windranger",
+        "counters": [
+            "earthshaker",
+            "huskar",
+            "hoodwink",
+            "phantom_assassin",
+            "pudge",
+            "ursa"
+        ],
+        "synergy": [
+            "nature's_prophet",
+            "hoodwink"
+        ]
+    },
+    {
+        "name": "beastmaster",
+        "url": "https://dota2.fandom.com/wiki/Beastmaster",
+        "counters": [
+            "monkey_king",
+            "phoenix",
+            "sven",
+            "templar_assassin",
+            "tinker",
+            "tiny",
+            "troll_warlord",
+            "ursa",
+            "wraith_king"
+        ],
+        "synergy": [
+            "lifestealer",
+            "nature's_prophet",
+            "phantom_assassin",
+            "spirit_breaker",
+            "sven",
+            "tinker",
+            "tiny",
+            "underlord",
+            "ursa"
+        ]
+    },
+    {
+        "name": "dragon_knight",
+        "url": "https://dota2.fandom.com/wiki/Dragon_Knight",
+        "counters": [
+            "bloodseeker",
+            "clinkz",
+            "nyx_assassin",
+            "riki",
+            "spirit_breaker",
+            "templar_assassin",
+            "witch_doctor"
+        ],
+        "synergy": [
+            "chen",
+            "crystal_maiden",
+            "enigma",
+            "magnus",
+            "medusa",
+            "treant_protector",
+            "vengeful_spirit"
+        ]
+    },
+    {
+        "name": "clockwerk",
+        "url": "https://dota2.fandom.com/wiki/Clockwerk",
+        "counters": [
+            "earthshaker",
+            "enigma",
+            "drow_ranger",
+            "legion_commander",
+            "monkey_king",
+            "pudge",
+            "pugna",
+            "sniper",
+            "spirit_breaker",
+            "tinker",
+            "windranger"
+        ],
+        "synergy": [
+            "dark_seer",
+            "invoker",
+            "lifestealer",
+            "mirana",
+            "shadow_demon",
+            "",
+            "bloodseeker"
+        ]
+    },
+    {
+        "name": "omniknight",
+        "url": "https://dota2.fandom.com/wiki/Omniknight",
+        "counters": [
+            "axe",
+            "chaos_knight",
+            "death_prophet",
+            "juggernaut",
+            "legion_commander",
+            "winter_wyvern"
+        ],
+        "synergy": [
+            "clockwerk",
+            "crystal_maiden",
+            "keeper_of_the_light",
+            "pudge",
+            "storm_spirit"
+        ]
+    },
+    {
+        "name": "morphling",
+        "url": "https://dota2.fandom.com/wiki/Morphling",
+        "counters": [
+            "lifestealer",
+            "bloodseeker",
+            "clockwerk",
+            "drow_ranger",
+            "lone_druid",
+            "phantom_assassin",
+            "razor",
+            "sniper"
+        ],
+        "synergy": [
+            "drow_ranger",
+            "earthshaker",
+            "tiny",
+            "pugna",
+            "keeper_of_the_light",
+            "crystal_maiden",
+            "dazzle"
+        ]
+    },
+    {
+        "name": "phantom_lancer",
+        "url": "https://dota2.fandom.com/wiki/Phantom_Lancer",
+        "counters": [
+            "arc_warden",
+            "bounty_hunter",
+            "chaos_knight",
+            "clockwerk",
+            "disruptor",
+            "lifestealer",
+            "lone_druid",
+            "pugna",
+            "shadow_demon",
+            "slark",
+            "templar_assassin",
+            "undying",
+            "viper",
+            "visage",
+            "wraith_king"
+        ],
+        "synergy": [
+            "bane",
+            "crystal_maiden",
+            "dazzle",
+            "jakiro",
+            "keeper_of_the_light",
+            "oracle",
+            "shadow_shaman",
+            "slardar",
+            "spirit_breaker",
+            "undying",
+            "venomancer"
+        ]
+    },
+    {
+        "name": "vengeful_spirit",
+        "url": "https://dota2.fandom.com/wiki/Vengeful_Spirit",
+        "counters": [
+            "batrider",
+            "clockwerk",
+            "faceless_void",
+            "huskar",
+            "meepo",
+            "monkey_king"
+        ],
+        "synergy": [
+            "techies",
+            "shadow_fiend",
+            "slardar",
+            "drow_ranger",
+            "mirana",
+            "bloodseeker",
+            "crystal_maiden",
+            "weaver"
+        ]
+    },
+    {
+        "name": "riki",
+        "url": "https://dota2.fandom.com/wiki/Riki",
+        "counters": [
+            "anti-mage",
+            "chen",
+            "clinkz",
+            "crystal_maiden",
+            "drow_ranger",
+            "lifestealer",
+            "mars",
+            "queen_of_pain",
+            "storm_spirit",
+            "skywrath_mage",
+            "sniper",
+            "ursa",
+            "weaver"
+        ],
+        "synergy": [
+            "faceless_void",
+            "lifestealer",
+            "meepo",
+            "dark_seer",
+            "magnus",
+            "enigma",
+            "axe"
+        ]
+    },
+    {
+        "name": "zeus",
+        "url": "https://dota2.fandom.com/wiki/Zeus",
+        "counters": [
+            "slardar",
+            "enchantress",
+            "timbersaw",
+            "bounty_hunter",
+            "winter_wyvern",
+            "lich",
+            "necrophos",
+            "tinker"
+        ],
+        "synergy": [
+            "ancient_apparition",
+            "bloodseeker",
+            "dazzle",
+            "tidehunter"
+        ]
+    },
+    {
+        "name": "lina",
+        "url": "https://dota2.fandom.com/wiki/Lina",
+        "counters": [
+            "ancient_apparition",
+            "clinkz",
+            "crystal_maiden",
+            "dazzle",
+            "enchantress",
+            "meepo",
+            "mirana",
+            "morphling",
+            "necrophos",
+            "pudge",
+            "treant_protector",
+            "venomancer"
+        ],
+        "synergy": [
+            "shadow_demon",
+            "sven",
+            "pugna",
+            "bane",
+            "grimstroke"
+        ]
+    },
+    {
+        "name": "shadow_shaman",
+        "url": "https://dota2.fandom.com/wiki/Shadow_Shaman",
+        "counters": [
+            "huskar",
+            "nature's_prophet",
+            "spirit_breaker",
+            "templar_assassin",
+            "terrorblade",
+            "weaver"
+        ],
+        "synergy": [
+            "juggernaut",
+            "ursa",
+            "troll_warlord",
+            "pugna",
+            "legion_commander_",
+            "monkey_king_"
+        ]
+    },
+    {
+        "name": "tinker",
+        "url": "https://dota2.fandom.com/wiki/Tinker",
+        "counters": [
+            "bloodseeker",
+            "chaos_knight",
+            "faceless_void",
+            "shadow_fiend",
+            "terrorblade",
+            "timbersaw"
+        ],
+        "synergy": [
+            "faceless_void",
+            "kunkka",
+            "nature's_prophet",
+            "spirit_breaker",
+            "bloodseeker",
+            "keeper_of_the_light",
+            "bounty_hunter",
+            "slardar"
+        ]
+    },
+    {
+        "name": "huskar",
+        "url": "https://dota2.fandom.com/wiki/Huskar",
+        "counters": [
+            "weaver",
+            "clockwerk",
+            "dragon_knight",
+            "earthshaker",
+            "ember_spirit",
+            "nature's_prophet",
+            "phoenix"
+        ],
+        "synergy": [
+            "ancient_apparition",
+            "beastmaster",
+            "dazzle",
+            "omniknight",
+            "oracle",
+            "necrophos",
+            "pugna",
+            "terrorblade",
+            "witch_doctor"
+        ]
+    },
+    {
+        "name": "alchemist",
+        "url": "https://dota2.fandom.com/wiki/Alchemist",
+        "counters": [
+            "broodmother",
+            "nature's_prophet",
+            "phoenix",
+            "undying",
+            "huskar"
+        ],
+        "synergy": [
+            "oracle"
+        ]
+    },
+    {
+        "name": "brewmaster",
+        "url": "https://dota2.fandom.com/wiki/Brewmaster",
+        "counters": [
+            "abaddon",
+            "chaos_knight",
+            "huskar",
+            "lone_druid",
+            "lycan",
+            "templar_assassin",
+            "ursa"
+        ],
+        "synergy": [
+            "dazzle",
+            "oracle",
+            "tiny",
+            "invoker"
+        ]
+    },
+    {
+        "name": "treant_protector",
+        "url": "https://dota2.fandom.com/wiki/Treant_Protector",
+        "counters": [
+            "spirit_breaker",
+            "anti-mage",
+            "lycan",
+            "storm_spirit",
+            "drow_ranger",
+            "phantom_assassin"
+        ],
+        "synergy": [
+            "keeper_of_the_light",
+            "crystal_maiden",
+            "mirana",
+            "nature's_prophet",
+            "pudge",
+            "sven",
+            "warlock"
+        ]
+    },
+    {
+        "name": "sniper",
+        "url": "https://dota2.fandom.com/wiki/Sniper",
+        "counters": [
+            "drow_ranger",
+            "earthshaker",
+            "enigma",
+            "medusa",
+            "silencer",
+            "shadow_fiend",
+            "undying"
+        ],
+        "synergy": [
+            "grimstroke",
+            "ogre_magi",
+            "lich",
+            "bloodseeker"
+        ]
+    },
+    {
+        "name": "templar_assassin",
+        "url": "https://dota2.fandom.com/wiki/Templar_Assassin",
+        "counters": [
+            "shadow_fiend",
+            "zeus",
+            "puck"
+        ],
+        "synergy": [
+            "slardar",
+            "elder_titan",
+            "vengeful_spirit"
+        ]
+    },
+    {
+        "name": "luna",
+        "url": "https://dota2.fandom.com/wiki/Luna",
+        "counters": [
+            "arc_warden",
+            "bane",
+            "bounty_hunter",
+            "chen",
+            "enchantress",
+            "legion_commander",
+            "lifestealer",
+            "magnus",
+            "necrophos",
+            "pugna",
+            "riki",
+            "tidehunter",
+            "underlord",
+            "winter_wyvern"
+        ],
+        "synergy": [
+            "crystal_maiden",
+            "keeper_of_the_light",
+            "night_stalker",
+            "vengeful_spirit",
+            "shadow_demon"
+        ]
+    },
+    {
+        "name": "bounty_hunter",
+        "url": "https://dota2.fandom.com/wiki/Bounty_Hunter",
+        "counters": [
+            "sniper",
+            "nyx_assassin",
+            "shadow_fiend",
+            "pudge"
+        ],
+        "synergy": [
+            "invoker",
+            "nature's_prophet",
+            "tinker",
+            "spectre",
+            "zeus"
+        ]
+    },
+    {
+        "name": "nature's_prophet",
+        "url": "https://dota2.fandom.com/wiki/Nature%27s_Prophet",
+        "counters": [
+            "lich",
+            "monkey_king",
+            "techies",
+            "treant_protector",
+            "venomancer",
+            "weaver"
+        ],
+        "synergy": [
+            "bloodseeker",
+            "invoker",
+            "lycan",
+            "windranger",
+            "timbersaw",
+            "riki",
+            "mars",
+            "zeus"
+        ]
+    },
+    {
+        "name": "enchantress",
+        "url": "https://dota2.fandom.com/wiki/Enchantress",
+        "counters": [
+            "ember_spirit",
+            "lycan",
+            "omniknight",
+            "spirit_breaker",
+            "lifestealer",
+            "sven",
+            "beastmaster",
+            "ursa"
+        ],
+        "synergy": [
+            "legion_commander",
+            "lich",
+            "io",
+            "warlock"
+        ]
+    },
+    {
+        "name": "jakiro",
+        "url": "https://dota2.fandom.com/wiki/Jakiro",
+        "counters": [
+            "axe",
+            "broodmother",
+            "chen",
+            "chaos_knight",
+            "meepo",
+            "nature's_prophet",
+            "phantom_lancer",
+            "riki",
+            "templar_assassin",
+            "treant_protector"
+        ],
+        "synergy": [
+            "dark_seer",
+            "faceless_void",
+            "kunkka",
+            "magnus",
+            "shadow_demon",
+            "treant_protector"
+        ]
+    },
+    {
+        "name": "chen",
+        "url": "https://dota2.fandom.com/wiki/Chen",
+        "counters": [
+            "techies",
+            "arc_warden",
+            "beastmaster",
+            "clockwerk",
+            "pudge",
+            "bane",
+            "shadow_shaman"
+        ],
+        "synergy": [
+            "vengeful_spirit",
+            "lycan"
+        ]
+    },
+    {
+        "name": "io",
+        "url": "https://dota2.fandom.com/wiki/Io",
+        "counters": [
+            "drow_ranger",
+            "meepo",
+            "nature's_prophet",
+            "phoenix",
+            "pudge",
+            "underlord"
+        ],
+        "synergy": [
+            "chaos_knight",
+            "gyrocopter",
+            "juggernaut",
+            "legion_commander",
+            "lifestealer",
+            "phantom_assassin",
+            "spirit_breaker",
+            "sven",
+            "tiny",
+            "ursa"
+        ]
+    },
+    {
+        "name": "centaur_warrunner",
+        "url": "https://dota2.fandom.com/wiki/Centaur_Warrunner",
+        "counters": [
+            "arc_warden",
+            "doom",
+            "nyx_assassin",
+            "phantom_assassin",
+            "phantom_lancer",
+            "sniper",
+            "windranger"
+        ],
+        "synergy": [
+            "abaddon",
+            "dark_seer",
+            "mirana",
+            "sven",
+            "tusk",
+            "tiny",
+            "vengeful_spirit",
+            "grimstroke"
+        ]
+    },
+    {
+        "name": "timbersaw",
+        "url": "https://dota2.fandom.com/wiki/Timbersaw",
+        "counters": [
+            "broodmother",
+            "axe",
+            "chaos_knight",
+            "meepo",
+            "monkey_king",
+            "nature's_prophet",
+            "phantom_assassin",
+            "phantom_lancer",
+            "razor",
+            "slark",
+            "terrorblade",
+            "treant_protector"
+        ],
+        "synergy": [
+            "bounty_hunter",
+            "crystal_maiden",
+            "enigma",
+            "magnus",
+            "faceless_void"
+        ]
+    },
+    {
+        "name": "bristleback",
+        "url": "https://dota2.fandom.com/wiki/Bristleback",
+        "counters": [
+            "arc_warden",
+            "broodmother",
+            "chaos_knight",
+            "huskar",
+            "jakiro",
+            "luna",
+            "lycan",
+            "meepo",
+            "phantom_lancer",
+            "pudge",
+            "riki",
+            "rubick",
+            "sand_king"
+        ],
+        "synergy": [
+            "crystal_maiden",
+            "dazzle",
+            "drow_ranger",
+            "keeper_of_the_light",
+            "skywrath_mage",
+            "venomancer"
+        ]
+    },
+    {
+        "name": "ursa",
+        "url": "https://dota2.fandom.com/wiki/Ursa",
+        "counters": [
+            "lifestealer",
+            "lina",
+            "timbersaw",
+            "huskar",
+            "medusa",
+            "bristleback",
+            "underlord",
+            "pudge"
+        ],
+        "synergy": [
+            "io",
+            "disruptor",
+            "shadow_shaman",
+            "lion",
+            "bane"
+        ]
+    },
+    {
+        "name": "gyrocopter",
+        "url": "https://dota2.fandom.com/wiki/Gyrocopter",
+        "counters": [
+            "meepo",
+            "undying",
+            "phantom_lancer",
+            "chaos_knight",
+            "terrorblade"
+        ],
+        "synergy": [
+            "bloodseeker",
+            "disruptor",
+            "earthshaker",
+            "enigma",
+            "magnus",
+            "morphling",
+            "rubick",
+            "warlock"
+        ]
+    },
+    {
+        "name": "hoodwink",
+        "url": "https://dota2.fandom.com/wiki/Hoodwink",
+        "counters": [
+            "abaddon",
+            "bristleback",
+            "huskar",
+            "lion",
+            "monkey_king",
+            "phantom_assassin",
+            "phantom_lancer",
+            "morphling"
+        ],
+        "synergy": [
+            "elder_titan",
+            "monkey_king",
+            "nature's_prophet",
+            "windranger",
+            "invoker",
+            "disruptor",
+            "pugna",
+            "sand_king"
+        ]
+    },
+    {
+        "name": "lone_druid",
+        "url": "https://dota2.fandom.com/wiki/Lone_Druid",
+        "counters": [
+            "nature's_prophet",
+            "silencer"
+        ],
+        "synergy": [
+            "beastmaster",
+            "lycan",
+            "ogre_magi",
+            "omniknight"
+        ]
+    },
+    {
+        "name": "silencer",
+        "url": "https://dota2.fandom.com/wiki/Silencer",
+        "counters": [
+            "bristleback",
+            "crystal_maiden",
+            "enigma",
+            "medusa",
+            "oracle",
+            "outworld_destroyer",
+            "pugna",
+            "shadow_demon",
+            "timbersaw",
+            "tinker",
+            "windranger",
+            "zeus"
+        ],
+        "synergy": [
+            "slardar",
+            "crystal_maiden",
+            "anti-mage",
+            "pudge",
+            "outworld_destroyer"
+        ]
+    },
+    {
+        "name": "ogre_magi",
+        "url": "https://dota2.fandom.com/wiki/Ogre_Magi",
+        "counters": [
+            "earthshaker",
+            "io",
+            "nature's_prophet",
+            "templar_assassin",
+            "weaver"
+        ],
+        "synergy": [
+            "grimstroke",
+            "juggernaut",
+            "shadow_fiend",
+            "sniper",
+            "sven",
+            "wraith_king"
+        ]
+    },
+    {
+        "name": "rubick",
+        "url": "https://dota2.fandom.com/wiki/Rubick",
+        "counters": [
+            "crystal_maiden",
+            "earthshaker",
+            "enigma",
+            "invoker",
+            "kunkka",
+            "lich",
+            "lina",
+            "lion",
+            "luna",
+            "magnus",
+            "medusa",
+            "morphling",
+            "omniknight",
+            "winter_wyvern",
+            "witch_doctor"
+        ],
+        "synergy": [
+            "alchemist",
+            "crystal_maiden",
+            "morphling"
+        ]
+    },
+    {
+        "name": "disruptor",
+        "url": "https://dota2.fandom.com/wiki/Disruptor",
+        "counters": [
+            "anti-mage",
+            "io",
+            "queen_of_pain",
+            "slark",
+            "storm_spirit",
+            "tidehunter"
+        ],
+        "synergy": [
+            "zeus",
+            "anti-mage",
+            "keeper_of_the_light",
+            "warlock",
+            "clinkz"
+        ]
+    },
+    {
+        "name": "tusk",
+        "url": "https://dota2.fandom.com/wiki/Tusk",
+        "counters": [
+            "bane",
+            "bloodseeker",
+            "crystal_maiden",
+            "legion_commander",
+            "pugna",
+            "shadow_fiend",
+            "sniper",
+            "venomancer",
+            "viper",
+            "monkey_king"
+        ],
+        "synergy": [
+            "omniknight",
+            "axe",
+            "juggernaut",
+            "legion_commander",
+            "lifestealer",
+            "tidehunter",
+            "tiny",
+            "meepo"
+        ]
+    },
+    {
+        "name": "elder_titan",
+        "url": "https://dota2.fandom.com/wiki/Elder_Titan",
+        "counters": [
+            "meepo",
+            "morphling",
+            "phantom_lancer",
+            "slark",
+            "terrorblade",
+            "viper"
+        ],
+        "synergy": [
+            "disruptor",
+            "faceless_void",
+            "kunkka",
+            "slardar",
+            "luna"
+        ]
+    },
+    {
+        "name": "legion_commander",
+        "url": "https://dota2.fandom.com/wiki/Legion_Commander",
+        "counters": [
+            "anti-mage",
+            "bristleback",
+            "broodmother",
+            "chen",
+            "clinkz",
+            "drow_ranger",
+            "huskar",
+            "nyx_assassin",
+            "sniper",
+            "terrorblade",
+            "weaver"
+        ],
+        "synergy": [
+            "ancient_apparition",
+            "disruptor",
+            "invoker",
+            "lifestealer",
+            "mirana",
+            "shadow_fiend",
+            "silencer",
+            "skywrath_mage",
+            "ursa",
+            "witch_doctor",
+            "zeus"
+        ]
+    },
+    {
+        "name": "earth_spirit",
+        "url": "https://dota2.fandom.com/wiki/Earth_Spirit",
+        "counters": [
+            "pudge",
+            "tinker",
+            "invoker",
+            "templar_assassin",
+            "enigma"
+        ],
+        "synergy": [
+            "alchemist"
+        ]
+    },
+    {
+        "name": "naga_siren",
+        "url": "https://dota2.fandom.com/wiki/Naga_Siren",
+        "counters": [
+            "abaddon",
+            "omniknight",
+            "nature's_prophet",
+            "legion_commander",
+            "templar_assassin",
+            "crystal_maiden",
+            "chen",
+            "bounty_hunter",
+            "viper",
+            "night_stalker",
+            "arc_warden",
+            "sniper",
+            "rubick",
+            "lone_druid"
+        ],
+        "synergy": [
+            "dazzle",
+            "disruptor",
+            "kunkka",
+            "razor",
+            "tidehunter"
+        ]
+    },
+    {
+        "name": "troll_warlord",
+        "url": "https://dota2.fandom.com/wiki/Troll_Warlord",
+        "counters": [
+            "anti-mage",
+            "enchantress",
+            "huskar",
+            "juggernaut",
+            "lifestealer",
+            "phantom_assassin",
+            "phoenix",
+            "sven",
+            "undying"
+        ],
+        "synergy": [
+            "ogre_magi",
+            "slardar",
+            "vengeful_spirit"
+        ]
+    },
+    {
+        "name": "ember_spirit",
+        "url": "https://dota2.fandom.com/wiki/Ember_Spirit",
+        "counters": [
+            "bloodseeker",
+            "meepo",
+            "chaos_knight",
+            "terrorblade",
+            "crystal_maiden",
+            "nature's_prophet",
+            "phantom_lancer"
+        ],
+        "synergy": [
+            "magnus",
+            "keeper_of_the_light",
+            "dazzle",
+            "faceless_void"
+        ]
+    },
+    {
+        "name": "monkey_king",
+        "url": "https://dota2.fandom.com/wiki/Monkey_King",
+        "counters": [
+            "alchemist",
+            "faceless_void",
+            "omniknight",
+            "meepo",
+            "nature's_prophet",
+            "shadow_fiend",
+            "spectre",
+            "silencer",
+            "timbersaw",
+            "underlord",
+            "skywrath_mage",
+            "witch_doctor"
+        ],
+        "synergy": [
+            "beastmaster",
+            "crystal_maiden",
+            "dark_seer",
+            "elder_titan",
+            "keeper_of_the_light",
+            "magnus",
+            "mars",
+            "nature's_prophet",
+            "oracle",
+            "puck",
+            "treant_protector"
+        ]
+    },
+    {
+        "name": "keeper_of_the_light",
+        "url": "https://dota2.fandom.com/wiki/Keeper_of_the_Light",
+        "counters": [
+            "monkey_king",
+            "wraith_king"
+        ],
+        "synergy": [
+            "mars",
+            "medusa",
+            "lina",
+            "luna",
+            "pudge"
+        ]
+    },
+    {
+        "name": "skywrath_mage",
+        "url": "https://dota2.fandom.com/wiki/Skywrath_Mage",
+        "counters": [
+            "timbersaw",
+            "storm_spirit",
+            "enchantress",
+            "alchemist",
+            "vengeful_spirit",
+            "winter_wyvern"
+        ],
+        "synergy": [
+            "faceless_void",
+            "undying",
+            "centaur_warrunner",
+            "pugna",
+            "silencer",
+            "legion_commander"
+        ]
+    },
+    {
+        "name": "oracle",
+        "url": "https://dota2.fandom.com/wiki/Oracle",
+        "counters": [
+            "ember_spirit",
+            "legion_commander",
+            "dark_willow",
+            "omniknight",
+            "rubick",
+            "ancient_apparition",
+            "silencer",
+            "phoenix",
+            "necrophos",
+            "dark_seer",
+            "techies"
+        ],
+        "synergy": [
+            "alchemist",
+            "ancient_apparition",
+            "death_prophet",
+            "huskar",
+            "io",
+            "legion_commander",
+            "monkey_king",
+            "shadow_demon",
+            "timbersaw",
+            "ursa",
+            "leshrac",
+            "troll_warlord",
+            "necrophos"
+        ]
+    },
+    {
+        "name": "techies",
+        "url": "https://dota2.fandom.com/wiki/Techies",
+        "counters": [
+            "ember_spirit",
+            "meepo",
+            "monkey_king",
+            "morphling",
+            "tinker"
+        ],
+        "synergy": [
+            "batrider",
+            "crystal_maiden",
+            "magnus",
+            "pugna",
+            "tusk"
+        ]
+    },
+    {
+        "name": "phoenix",
+        "url": "https://dota2.fandom.com/wiki/Phoenix",
+        "counters": [
+            "templar_assassin",
+            "phantom_assassin",
+            "legion_commander",
+            "monkey_king",
+            "chen",
+            "earthshaker",
+            "ancient_apparition",
+            "shadow_demon"
+        ],
+        "synergy": [
+            "enigma",
+            "faceless_void",
+            "invoker",
+            "keeper_of_the_light",
+            "lifestealer",
+            "magnus",
+            "pugna",
+            "sven",
+            "tinker",
+            "treant_protector",
+            "warlock"
+        ]
+    },
+    {
+        "name": "mars",
+        "url": "https://dota2.fandom.com/wiki/Mars",
+        "counters": [
+            "bloodseeker",
+            "juggernaut",
+            "legion_commander",
+            "phantom_assassin",
+            "slark",
+            "spectre",
+            "terrorblade",
+            "weaver"
+        ],
+        "synergy": [
+            "dark_seer",
+            "huskar",
+            "crystal_maiden",
+            "disruptor",
+            "keeper_of_the_light",
+            "kunkka",
+            "lich",
+            "monkey_king",
+            "phoenix",
+            "riki",
+            "sven"
+        ]
+    },
+    {
+        "name": "snapfire",
+        "url": "https://dota2.fandom.com/wiki/Snapfire",
+        "counters": [
+            "chen",
+            "clockwerk",
+            "phantom_lancer",
+            "phoenix",
+            "omniknight",
+            "faceless_void"
+        ],
+        "synergy": [
+            "faceless_void",
+            "oracle",
+            "warlock",
+            "mars"
+        ]
+    },
+    {
+        "name": "pangolier",
+        "url": "https://dota2.fandom.com/wiki/Pangolier",
+        "counters": [
+            "arc_warden",
+            "broodmother",
+            "meepo",
+            "phantom_lancer",
+            "templar_assassin",
+            "visage"
+        ],
+        "synergy": [
+            "abaddon",
+            "batrider",
+            "clockwerk",
+            "dark_seer",
+            "earth_spirit",
+            "jakiro",
+            "keeper_of_the_light",
+            "undying"
+        ]
+    },
+    {
+        "name": "dark_willow",
+        "url": "https://dota2.fandom.com/wiki/Dark_Willow",
+        "counters": [
+            "bloodseeker",
+            "faceless_void",
+            "monkey_king",
+            "meepo",
+            "spirit_breaker",
+            "timbersaw",
+            "troll_warlord",
+            "windranger"
+        ],
+        "synergy": [
+            "mars",
+            "rubick",
+            "ember_spirit",
+            "invoker",
+            "juggernaut",
+            "lina",
+            "mirana",
+            "phoenix",
+            "puck",
+            "warlock",
+            "weaver",
+            "axe"
+        ]
+    },
+    {
+        "name": "void_spirit",
+        "url": "https://dota2.fandom.com/wiki/Void_Spirit",
+        "counters": [
+            "broodmother",
+            "terrorblade",
+            "gyrocopter",
+            "morphling",
+            "monkey_king",
+            "windranger"
+        ],
+        "synergy": [
+            "keeper_of_the_light",
+            "pudge",
+            "pugna",
+            "bane",
+            "bloodseeker"
+        ]
+    },
+    {
+        "name": "axe",
+        "url": "https://dota2.fandom.com/wiki/Axe",
+        "counters": [
+            "abaddon",
+            "anti-mage",
+            "broodmother",
+            "chaos_knight",
+            "dazzle",
+            "huskar",
+            "morphling",
+            "nature's_prophet",
+            "phantom_assassin",
+            "phantom_lancer",
+            "slark",
+            "terrorblade",
+            "troll_warlord",
+            "weaver"
+        ],
+        "synergy": [
+            "ancient_apparition",
+            "dark_seer",
+            "dazzle",
+            "enigma",
+            "disruptor",
+            "magnus",
+            "phoenix",
+            "sand_king",
+            "skywrath_mage",
+            "tiny",
+            "venomancer",
+            "witch_doctor"
+        ]
+    },
+    {
+        "name": "pudge",
+        "url": "https://dota2.fandom.com/wiki/Pudge",
+        "counters": [
+            "bloodseeker",
+            "crystal_maiden",
+            "drow_ranger",
+            "luna",
+            "sniper",
+            "spectre",
+            "techies",
+            "tinker",
+            "zeus"
+        ],
+        "synergy": [
+            "techies",
+            "pugna",
+            "outworld_destroyer",
+            "lifestealer",
+            "tiny",
+            "crystal_maiden",
+            "bloodseeker",
+            "omniknight"
+        ]
+    },
+    {
+        "name": "sand_king",
+        "url": "https://dota2.fandom.com/wiki/Sand_King",
+        "counters": [
+            "broodmother",
+            "meepo",
+            "nature's_prophet",
+            "phantom_assassin",
+            "slark",
+            "templar_assassin"
+        ],
+        "synergy": [
+            "crystal_maiden",
+            "keeper_of_the_light",
+            "tidehunter",
+            "tiny",
+            "monkey_king",
+            "warlock",
+            "earthshaker"
+        ]
+    },
+    {
+        "name": "slardar",
+        "url": "https://dota2.fandom.com/wiki/Slardar",
+        "counters": [
+            "riki",
+            "clinkz",
+            "bounty_hunter",
+            "weaver",
+            "shadow_fiend",
+            "alchemist",
+            "legion_commander",
+            "pudge"
+        ],
+        "synergy": [
+            "bounty_hunter",
+            "vengeful_spirit",
+            "shadow_fiend",
+            "alchemist",
+            "lifestealer",
+            "phantom_assassin",
+            "templar_assassin"
+        ]
+    },
+    {
+        "name": "bloodseeker",
+        "url": "https://dota2.fandom.com/wiki/Bloodseeker",
+        "counters": [
+            "anti-mage",
+            "clinkz",
+            "huskar",
+            "lycan",
+            "meepo",
+            "mirana",
+            "pangolier",
+            "phoenix",
+            "queen_of_pain",
+            "riki",
+            "slark",
+            "sniper",
+            "timbersaw",
+            "vengeful_spirit",
+            "weaver",
+            "windranger"
+        ],
+        "synergy": [
+            "ancient_apparition",
+            "batrider",
+            "bounty_hunter",
+            "earthshaker",
+            "earth_spirit",
+            "invoker",
+            "jakiro",
+            "magnus",
+            "nature's_prophet",
+            "phoenix",
+            "queen_of_pain",
+            "venomancer",
+            "warlock",
+            "zeus"
+        ]
+    },
+    {
+        "name": "shadow_fiend",
+        "url": "https://dota2.fandom.com/wiki/Shadow_Fiend",
+        "counters": [
+            "clockwerk",
+            "meepo",
+            "nature's_prophet",
+            "silencer",
+            "slark"
+        ],
+        "synergy": [
+            "bane",
+            "clockwerk",
+            "enigma",
+            "legion_commander",
+            "magnus",
+            "slardar",
+            "tidehunter",
+            "vengeful_spirit"
+        ]
+    },
+    {
+        "name": "razor",
+        "url": "https://dota2.fandom.com/wiki/Razor",
+        "counters": [
+            "bristleback",
+            "earthshaker",
+            "lifestealer",
+            "monkey_king",
+            "phantom_assassin",
+            "phantom_lancer",
+            "spirit_breaker",
+            "troll_warlord",
+            "windranger"
+        ],
+        "synergy": [
+            "death_prophet",
+            "shadow_demon",
+            "outworld_destroyer",
+            "bane",
+            "naga_siren",
+            "winter_wyvern"
+        ]
+    },
+    {
+        "name": "venomancer",
+        "url": "https://dota2.fandom.com/wiki/Venomancer",
+        "counters": [
+            "axe",
+            "earthshaker",
+            "magnus",
+            "mars",
+            "monkey_king",
+            "spectre",
+            "templar_assassin",
+            "techies",
+            "windranger"
+        ],
+        "synergy": [
+            "ancient_apparition",
+            "undying",
+            "viper"
+        ]
+    },
+    {
+        "name": "bane",
+        "url": "https://dota2.fandom.com/wiki/Bane",
+        "counters": [
+            "faceless_void",
+            "legion_commander",
+            "medusa",
+            "phantom_assassin"
+        ],
+        "synergy": [
+            "grimstroke",
+            "kunkka",
+            "mirana",
+            "omniknight",
+            "pudge",
+            "skywrath_mage"
+        ]
+    },
+    {
+        "name": "lich",
+        "url": "https://dota2.fandom.com/wiki/Lich",
+        "counters": [
+            "meepo",
+            "chaos_knight",
+            "lone_druid"
+        ],
+        "synergy": [
+            "magnus",
+            "warlock",
+            "treant_protector",
+            "witch_doctor",
+            "faceless_void",
+            "enigma",
+            "axe",
+            "grimstroke"
+        ]
+    },
+    {
+        "name": "lion",
+        "url": "https://dota2.fandom.com/wiki/Lion",
+        "counters": [
+            "drow_ranger",
+            "ember_spirit",
+            "enchantress",
+            "medusa",
+            "phantom_assassin",
+            "weaver",
+            "wraith_king"
+        ],
+        "synergy": [
+            "pugna",
+            "anti-mage",
+            "centaur_warrunner",
+            "leshrac",
+            "tinker",
+            "ursa"
+        ]
+    },
+    {
+        "name": "witch_doctor",
+        "url": "https://dota2.fandom.com/wiki/Witch_Doctor",
+        "counters": [
+            "bloodseeker",
+            "lone_druid",
+            "lycan",
+            "monkey_king",
+            "venomancer",
+            "viper"
+        ],
+        "synergy": [
+            "enigma",
+            "faceless_void",
+            "lich",
+            "magnus",
+            "underlord",
+            "undying"
+        ]
+    },
+    {
+        "name": "tidehunter",
+        "url": "https://dota2.fandom.com/wiki/Tidehunter",
+        "counters": [
+            "bane",
+            "batrider",
+            "shadow_fiend",
+            "phantom_lancer",
+            "windranger"
+        ],
+        "synergy": [
+            "underlord",
+            "earthshaker",
+            "elder_titan",
+            "shadow_fiend"
+        ]
+    },
+    {
+        "name": "wraith_king",
+        "url": "https://dota2.fandom.com/wiki/Wraith_King",
+        "counters": [
+            "bloodseeker",
+            "doom",
+            "legion_commander",
+            "necrophos",
+            "rubick",
+            "techies",
+            "witch_doctor"
+        ],
+        "synergy": [
+            "bloodseeker"
+        ]
+    },
+    {
+        "name": "lifestealer",
+        "url": "https://dota2.fandom.com/wiki/Lifestealer",
+        "counters": [
+            "axe",
+            "dark_willow",
+            "invoker",
+            "techies",
+            "tinker",
+            "ogre_magi"
+        ],
+        "synergy": [
+            "clockwerk",
+            "queen_of_pain",
+            "riki",
+            "slardar",
+            "spirit_breaker",
+            "storm_spirit",
+            "beastmaster"
+        ]
+    },
+    {
+        "name": "night_stalker",
+        "url": "https://dota2.fandom.com/wiki/Night_Stalker",
+        "counters": [
+            "storm_spirit",
+            "puck",
+            "clinkz",
+            "earthshaker",
+            "keeper_of_the_light",
+            "tinker",
+            "riki",
+            "slark"
+        ],
+        "synergy": [
+            "oracle",
+            "luna",
+            "magnus"
+        ]
+    },
+    {
+        "name": "faceless_void",
+        "url": "https://dota2.fandom.com/wiki/Faceless_Void",
+        "counters": [
+            "anti-mage",
+            "lifestealer",
+            "bloodseeker",
+            "bristleback",
+            "invoker",
+            "mars",
+            "morphling",
+            "necrophos",
+            "queen_of_pain",
+            "razor",
+            "rubick",
+            "slark",
+            "storm_spirit",
+            "weaver"
+        ],
+        "synergy": [
+            "dark_seer",
+            "disruptor",
+            "enigma",
+            "invoker",
+            "jakiro",
+            "kunkka",
+            "lich",
+            "outworld_destroyer",
+            "phoenix",
+            "sniper",
+            "witch_doctor"
+        ]
+    },
+    {
+        "name": "phantom_assassin",
+        "url": "https://dota2.fandom.com/wiki/Phantom_Assassin",
+        "counters": [
+            "anti-mage",
+            "crystal_maiden",
+            "dazzle",
+            "nature's_prophet",
+            "riki",
+            "sniper"
+        ],
+        "synergy": [
+            "ancient_apparition",
+            "beastmaster",
+            "magnus",
+            "omniknight",
+            "slardar",
+            "vengeful_spirit"
+        ]
+    },
+    {
+        "name": "viper",
+        "url": "https://dota2.fandom.com/wiki/Viper",
+        "counters": [
+            "abaddon",
+            "axe",
+            "bristleback",
+            "dragon_knight",
+            "earthshaker",
+            "huskar",
+            "magnus",
+            "mars",
+            "monkey_king",
+            "necrophos",
+            "nyx_assassin",
+            "razor",
+            "slark",
+            "spectre",
+            "templar_assassin",
+            "tidehunter",
+            "vengeful_spirit",
+            "venomancer",
+            "visage",
+            "zeus"
+        ],
+        "synergy": [
+            "abaddon",
+            "beastmaster",
+            "clockwerk",
+            "crystal_maiden",
+            "dark_seer",
+            "dazzle",
+            "drow_ranger",
+            "earth_spirit",
+            "faceless_void",
+            "lich",
+            "luna",
+            "necrophos",
+            "ogre_magi",
+            "slardar",
+            "treant_protector"
+        ]
+    },
+    {
+        "name": "clinkz",
+        "url": "https://dota2.fandom.com/wiki/Clinkz",
+        "counters": [
+            "anti-mage",
+            "ember_spirit",
+            "huskar",
+            "nature's_prophet",
+            "viper"
+        ],
+        "synergy": [
+            "drow_ranger",
+            "omniknight",
+            "vengeful_spirit"
+        ]
+    },
+    {
+        "name": "enigma",
+        "url": "https://dota2.fandom.com/wiki/Enigma",
+        "counters": [
+            "chaos_knight",
+            "crystal_maiden",
+            "huskar",
+            "juggernaut",
+            "lifestealer",
+            "monkey_king",
+            "naga_siren",
+            "omniknight"
+        ],
+        "synergy": [
+            "ancient_apparition",
+            "lich",
+            "axe",
+            "crystal_maiden",
+            "dark_seer",
+            "dazzle",
+            "earthshaker",
+            "magnus",
+            "naga_siren",
+            "outworld_destroyer",
+            "phoenix",
+            "sand_king",
+            "treant_protector",
+            "warlock",
+            "witch_doctor"
+        ]
+    },
+    {
+        "name": "necrophos",
+        "url": "https://dota2.fandom.com/wiki/Necrophos",
+        "counters": [
+            "axe",
+            "bristleback",
+            "huskar",
+            "phoenix",
+            "pudge",
+            "sven",
+            "tidehunter"
+        ],
+        "synergy": [
+            "abaddon",
+            "axe",
+            "earthshaker",
+            "legion_commander",
+            "oracle",
+            "pugna"
+        ]
+    },
+    {
+        "name": "warlock",
+        "url": "https://dota2.fandom.com/wiki/Warlock",
+        "counters": [
+            "huskar",
+            "meepo",
+            "templar_assassin",
+            "shadow_fiend",
+            "enigma"
+        ],
+        "synergy": [
+            "sven",
+            "bloodseeker",
+            "axe",
+            "dark_seer",
+            "kunkka",
+            "magnus",
+            "enigma",
+            "silencer",
+            "spectre"
+        ]
+    },
+    {
+        "name": "queen_of_pain",
+        "url": "https://dota2.fandom.com/wiki/Queen_of_Pain",
+        "counters": [
+            "drow_ranger",
+            "enchantress",
+            "huskar",
+            "slark"
+        ],
+        "synergy": [
+            "axe",
+            "dark_seer",
+            "enigma",
+            "faceless_void",
+            "lifestealer",
+            "magnus",
+            "omniknight"
+        ]
+    },
+    {
+        "name": "doom",
+        "url": "https://dota2.fandom.com/wiki/Doom",
+        "counters": [
+            "axe",
+            "timbersaw",
+            "anti-mage",
+            "bristleback",
+            "tidehunter",
+            "ember_spirit",
+            "invoker",
+            "omniknight",
+            "tinker",
+            "elder_titan",
+            "faceless_void",
+            "pudge",
+            "spectre",
+            "arc_warden"
+        ],
+        "synergy": [
+            "ancient_apparition",
+            "crystal_maiden",
+            "grimstroke",
+            "sven",
+            "bane"
+        ]
+    },
+    {
+        "name": "spirit_breaker",
+        "url": "https://dota2.fandom.com/wiki/Spirit_Breaker",
+        "counters": [
+            "anti-mage",
+            "clinkz",
+            "nature's_prophet",
+            "tinker"
+        ],
+        "synergy": [
+            "bloodseeker",
+            "bounty_hunter",
+            "io",
+            "lifestealer",
+            "dark_seer",
+            "snapfire"
+        ]
+    },
+    {
+        "name": "lycan",
+        "url": "https://dota2.fandom.com/wiki/Lycan",
+        "counters": [
+            "lich",
+            "techies",
+            "arc_warden",
+            "drow_ranger",
+            "ursa"
+        ],
+        "synergy": [
+            "beastmaster"
+        ]
+    },
+    {
+        "name": "chaos_knight",
+        "url": "https://dota2.fandom.com/wiki/Chaos_Knight",
+        "counters": [
+            "bane",
+            "bounty_hunter",
+            "disruptor",
+            "lone_druid",
+            "pudge",
+            "rubick",
+            "silencer",
+            "slark",
+            "techies",
+            "ursa",
+            "viper"
+        ],
+        "synergy": [
+            "crystal_maiden",
+            "keeper_of_the_light",
+            "morphling",
+            "shadow_demon"
+        ]
+    },
+    {
+        "name": "broodmother",
+        "url": "https://dota2.fandom.com/wiki/Broodmother",
+        "counters": [
+            "chen",
+            "drow_ranger",
+            "enchantress",
+            "medusa",
+            "nature's_prophet",
+            "phantom_assassin",
+            "sniper",
+            "treant_protector"
+        ],
+        "synergy": [
+            "beastmaster",
+            "dazzle",
+            "lifestealer"
+        ]
+    },
+    {
+        "name": "weaver",
+        "url": "https://dota2.fandom.com/wiki/Weaver",
+        "counters": [
+            "ancient_apparition",
+            "brewmaster",
+            "lifestealer",
+            "undying",
+            "pudge",
+            "sven",
+            "ursa",
+            "wraith_king"
+        ],
+        "synergy": [
+            "crystal_maiden",
+            "alchemist",
+            "vengeful_spirit"
+        ]
+    },
+    {
+        "name": "spectre",
+        "url": "https://dota2.fandom.com/wiki/Spectre",
+        "counters": [
+            "ancient_apparition",
+            "clinkz",
+            "crystal_maiden",
+            "drow_ranger",
+            "earthshaker",
+            "lina",
+            "magnus",
+            "nature's_prophet",
+            "phantom_assassin",
+            "rubick",
+            "sniper",
+            "tinker",
+            "windranger"
+        ],
+        "synergy": [
+            "bloodseeker",
+            "bounty_hunter",
+            "chen",
+            "clockwerk",
+            "earthshaker",
+            "enigma",
+            "leshrac",
+            "magnus",
+            "outworld_destroyer",
+            "treant_protector",
+            "warlock",
+            "pudge"
+        ]
+    },
+    {
+        "name": "meepo",
+        "url": "https://dota2.fandom.com/wiki/Meepo",
+        "counters": [
+            "anti-mage",
+            "legion_commander",
+            "phantom_lancer",
+            "phoenix",
+            "queen_of_pain",
+            "shadow_demon",
+            "spirit_breaker",
+            "storm_spirit"
+        ],
+        "synergy": [
+            "disruptor",
+            "kunkka",
+            "silencer",
+            "sven",
+            "dazzle"
+        ]
+    },
+    {
+        "name": "death_prophet",
+        "url": "https://dota2.fandom.com/wiki/Death_Prophet",
+        "counters": [
+            "zeus",
+            "invoker",
+            "morphling",
+            "timbersaw",
+            "nature's_prophet"
+        ],
+        "synergy": [
+            "enigma",
+            "faceless_void"
+        ]
+    },
+    {
+        "name": "pugna",
+        "url": "https://dota2.fandom.com/wiki/Pugna",
+        "counters": [
+            "enchantress",
+            "juggernaut",
+            "outworld_destroyer",
+            "timbersaw",
+            "leshrac",
+            "legion_commander",
+            "shadow_fiend",
+            "faceless_void",
+            "invoker",
+            "skywrath_mage",
+            "troll_warlord"
+        ],
+        "synergy": [
+            "grimstroke",
+            "io",
+            "legion_commander",
+            "necrophos",
+            "medusa",
+            "phoenix",
+            "skywrath_mage",
+            "shadow_shaman"
+        ]
+    },
+    {
+        "name": "dazzle",
+        "url": "https://dota2.fandom.com/wiki/Dazzle",
+        "counters": [
+            "clockwerk",
+            "necrophos",
+            "venomancer"
+        ],
+        "synergy": [
+            "brewmaster",
+            "broodmother",
+            "huskar",
+            "meepo",
+            "naga_siren",
+            "phantom_lancer"
+        ]
+    },
+    {
+        "name": "leshrac",
+        "url": "https://dota2.fandom.com/wiki/Leshrac",
+        "counters": [
+            "meepo",
+            "visage",
+            "chen",
+            "broodmother",
+            "io",
+            "shadow_demon",
+            "phantom_lancer"
+        ],
+        "synergy": [
+            "dark_seer",
+            "enigma",
+            "magnus",
+            "oracle"
+        ]
+    },
+    {
+        "name": "undying",
+        "url": "https://dota2.fandom.com/wiki/Undying",
+        "counters": [
+            "nature's_prophet",
+            "spectre",
+            "ogre_magi",
+            "centaur_warrunner",
+            "winter_wyvern",
+            "sven",
+            "bristleback"
+        ],
+        "synergy": [
+            "broodmother",
+            "crystal_maiden",
+            "morphling",
+            "naga_siren",
+            "pugna",
+            "warlock",
+            "winter_wyvern",
+            "lich",
+            "witch_doctor"
+        ]
+    },
+    {
+        "name": "magnus",
+        "url": "https://dota2.fandom.com/wiki/Magnus",
+        "counters": [
+            "chaos_knight",
+            "meepo",
+            "lifestealer",
+            "phantom_lancer"
+        ],
+        "synergy": [
+            "snapfire",
+            "anti-mage",
+            "enigma",
+            "invoker",
+            "phantom_assassin",
+            "sven",
+            "troll_warlord",
+            "phoenix",
+            "kunkka",
+            "tiny"
+        ]
+    },
+    {
+        "name": "abaddon",
+        "url": "https://dota2.fandom.com/wiki/Abaddon",
+        "counters": [
+            "death_prophet",
+            "mirana",
+            "bane",
+            "batrider",
+            "beastmaster",
+            "chen",
+            "techies",
+            "bloodseeker",
+            "necrophos",
+            "nyx_assassin"
+        ],
+        "synergy": [
+            "storm_spirit",
+            "phantom_assassin",
+            "io",
+            "axe",
+            "legion_commander",
+            "centaur_warrunner",
+            "oracle"
+        ]
+    },
+    {
+        "name": "underlord",
+        "url": "https://dota2.fandom.com/wiki/Underlord",
+        "counters": [
+            "drow_ranger",
+            "legion_commander",
+            "templar_assassin",
+            "phantom_lancer"
+        ],
+        "synergy": [
+            "disruptor",
+            "dragon_knight",
+            "elder_titan",
+            "leshrac",
+            "mirana",
+            "riki",
+            "rubick",
+            "timbersaw",
+            "vengeful_spirit"
+        ]
+    },
+    {
+        "name": "nyx_assassin",
+        "url": "https://dota2.fandom.com/wiki/Nyx_Assassin",
+        "counters": [
+            "crystal_maiden",
+            "enchantress",
+            "enigma",
+            "ember_spirit",
+            "medusa",
+            "outworld_destroyer",
+            "phoenix",
+            "puck",
+            "pugna",
+            "sniper",
+            "storm_spirit",
+            "tinker"
+        ],
+        "synergy": [
+            "invoker",
+            "legion_commander",
+            "lifestealer",
+            "bloodseeker"
+        ]
+    },
+    {
+        "name": "slark",
+        "url": "https://dota2.fandom.com/wiki/Slark",
+        "counters": [
+            "arc_warden",
+            "drow_ranger",
+            "luna",
+            "medusa",
+            "phantom_assassin",
+            "sniper",
+            "spectre",
+            "storm_spirit",
+            "templar_assassin",
+            "warlock"
+        ],
+        "synergy": [
+            "bane",
+            "earthshaker",
+            "luna",
+            "magnus",
+            "kunkka"
+        ]
+    },
+    {
+        "name": "medusa",
+        "url": "https://dota2.fandom.com/wiki/Medusa",
+        "counters": [
+            "enchantress",
+            "lifestealer",
+            "necrophos",
+            "sven",
+            "undying",
+            "lycan",
+            "enigma",
+            "meepo",
+            "axe",
+            "visage",
+            "spectre"
+        ],
+        "synergy": [
+            "axe",
+            "earthshaker",
+            "keeper_of_the_light",
+            "lich",
+            "phoenix",
+            "pugna",
+            "shadow_demon"
+        ]
+    },
+    {
+        "name": "terrorblade",
+        "url": "https://dota2.fandom.com/wiki/Terrorblade",
+        "counters": [
+            "ancient_apparition",
+            "bane",
+            "viper",
+            "techies",
+            "shadow_fiend",
+            "pudge",
+            "anti-mage",
+            "sniper",
+            "lifestealer",
+            "witch_doctor"
+        ],
+        "synergy": [
+            "dazzle",
+            "oracle",
+            "shadow_demon",
+            "necrophos"
+        ]
+    },
+    {
+        "name": "dark_seer",
+        "url": "https://dota2.fandom.com/wiki/Dark_Seer",
+        "counters": [
+            "broodmother",
+            "templar_assassin",
+            "treant_protector",
+            "meepo",
+            "terrorblade",
+            "venomancer"
+        ],
+        "synergy": [
+            "bounty_hunter",
+            "elder_titan",
+            "enigma",
+            "riki",
+            "sven",
+            "venomancer"
+        ]
+    },
+    {
+        "name": "batrider",
+        "url": "https://dota2.fandom.com/wiki/Batrider",
+        "counters": [
+            "chen",
+            "meepo",
+            "monkey_king",
+            "naga_siren",
+            "techies",
+            "templar_assassin",
+            "treant_protector"
+        ],
+        "synergy": [
+            "ursa",
+            "pugna",
+            "skywrath_mage",
+            "pudge"
+        ]
+    },
+    {
+        "name": "ancient_apparition",
+        "url": "https://dota2.fandom.com/wiki/Ancient_Apparition",
+        "counters": [
+            "abaddon",
+            "alchemist",
+            "chen",
+            "dazzle",
+            "death_prophet",
+            "huskar",
+            "io",
+            "snapfire",
+            "winter_wyvern"
+        ],
+        "synergy": [
+            "faceless_void",
+            "meepo",
+            "necrophos",
+            "oracle",
+            "shadow_demon",
+            "slark",
+            "winter_wyvern"
+        ]
+    },
+    {
+        "name": "invoker",
+        "url": "https://dota2.fandom.com/wiki/Invoker",
+        "counters": [
+            "huskar",
+            "legion_commander",
+            "medusa",
+            "necrophos"
+        ],
+        "synergy": [
+            "bloodseeker",
+            "dark_seer",
+            "disruptor",
+            "luna",
+            "magnus",
+            "nature's_prophet",
+            "faceless_void",
+            "legion_commander"
+        ]
+    },
+    {
+        "name": "arc_warden",
+        "url": "https://dota2.fandom.com/wiki/Arc_Warden",
+        "counters": [
+            "legion_commander",
+            "mirana",
+            "terrorblade",
+            "phoenix",
+            "sniper",
+            "templar_assassin",
+            "drow_ranger",
+            "enchantress"
+        ],
+        "synergy": [
+            "ancient_apparition"
+        ]
+    },
+    {
+        "name": "outworld_destroyer",
+        "url": "https://dota2.fandom.com/wiki/Outworld_Destroyer",
+        "counters": [
+            "anti-mage",
+            "axe",
+            "huskar",
+            "legion_commander",
+            "winter_wyvern",
+            "morphling",
+            "timbersaw",
+            "wraith_king"
+        ],
+        "synergy": [
+            "ogre_magi",
+            "silencer"
+        ]
+    },
+    {
+        "name": "shadow_demon",
+        "url": "https://dota2.fandom.com/wiki/Shadow_Demon",
+        "counters": [
+            "alchemist",
+            "venomancer",
+            "anti-mage",
+            "dark_seer",
+            "legion_commander",
+            "omniknight",
+            "spectre",
+            "juggernaut",
+            "luna",
+            "techies",
+            "windranger"
+        ],
+        "synergy": [
+            "ancient_apparition",
+            "dazzle",
+            "terrorblade",
+            "razor"
+        ]
+    },
+    {
+        "name": "visage",
+        "url": "https://dota2.fandom.com/wiki/Visage",
+        "counters": [
+            "clockwerk",
+            "nature's_prophet",
+            "puck",
+            "pudge",
+            "shadow_shaman",
+            "spectre"
+        ],
+        "synergy": [
+            "slardar",
+            "lifestealer",
+            "beastmaster",
+            "elder_titan"
+        ]
+    },
+    {
+        "name": "winter_wyvern",
+        "url": "https://dota2.fandom.com/wiki/Winter_Wyvern",
+        "counters": [
+            "beastmaster",
+            "chaos_knight",
+            "lycan",
+            "legion_commander",
+            "meepo",
+            "troll_warlord"
+        ],
+        "synergy": [
+            "dark_seer",
+            "enigma",
+            "magnus",
+            "venomancer",
+            "invoker"
+        ]
+    },
+    {
+        "name": "grimstroke",
+        "url": "https://dota2.fandom.com/wiki/Grimstroke",
+        "counters": [
+            "broodmother",
+            "crystal_maiden",
+            "io",
+            "necrophos",
+            "phantom_lancer",
+            "terrorblade",
+            "timbersaw",
+            "weaver"
+        ],
+        "synergy": [
+            "doom",
+            "bane",
+            "bloodseeker",
+            "bounty_hunter",
+            "crystal_maiden",
+            "lich",
+            "lion",
+            "lina",
+            "necrophos",
+            "phoenix",
+            "pugna",
+            "slark",
+            "witch_doctor"
+        ]
+    }
+]
