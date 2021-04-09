@@ -1,5 +1,3 @@
-% https://www.swi-prolog.org/FAQ/Multifile.html
-:- multifile prop/3.
 
 % Carry
 prop(abaddon , role, carry).
@@ -292,14 +290,212 @@ prop(storm_spirit, role, disabler).
 prop(techies, role, disabler).
 prop(visage, role, disabler).
 prop(void_spirit, role, disabler).
-% Jungle
-% Durable
-% Escape
-% Pusher
-% Initiator
 prop(warlock, role, disabler).
 prop(windranger, role, disabler).
 prop(winter_wyvern, role, disabler).
 prop(witch_doctor, role, disabler).
 
+% Jungle
+prop(axe, role, jungle).
+prop(lifestealer, role, jungle).
+prop(lycan, role, jungle).
+prop(sand_king, role, jungle).
+prop(bloodseeker, role, jungle).
+prop(lone_druid, role, jungle).
+prop(ursa, role, jungle).
+prop(batrider, role, jungle).
+prop(chen, role, jungle).
+prop(crystal_maiden, role, jungle).
+prop(dark_seer, role, jungle).
+prop(enchantress, role, jungle).
+prop(engima, role, jungle).
+prop(keeper_of_the_light, role, jungle).
+prop(naturs_prophet, role, jungle).
+
+% Durable
+prop(abaddon, role, durable).
+prop(alchemist, role, durable).
+prop(axe, role, durable).
+prop(beastmaster, role, durable).
+prop(brewmaster, role, durable).
+prop(bristleback, role, durable).
+prop(centaur_warrunner, role, durable).
+prop(chaos_knight, role, durable).
+prop(clockwerk, role, durable).
+prop(doom, role, durable).
+prop(dragon_knight, role, durable).
+prop(earth_spirit, role, durable).
+prop(elder_titan, role, durable).
+prop(huskar, role, durable).
+prop(kunkka, role, durable).
+prop(legion_commander, role, durable).
+prop(lifestealer, role, durable).
+prop(lycan, role, durable).
+prop(mars, role, durable).
+prop(night_stalker, role, durable).
+prop(omniknight, role, durable).
+prop(pudge, role, durable).
+prop(slardar, role, durable).
+prop(spirit_breaker, role, durable).
+prop(sven, role, durable).
+prop(tidehunter, role, durable).
+prop(timbersaw, role, durable).
+prop(tiny, role, durable).
+prop(treant_protector, role, durable).
+prop(underlord, role, durable).
+prop(undying, role, durable).
+prop(wraith_king, role, durable).
+prop(faceless_void, role, durable).
+prop(lone_druid, role, durable).
+prop(medusa, role, durable).
+prop(morphling, role, durable).
+prop(pangolier, role, durable).
+prop(razor, role, durable).
+prop(spectre, role, durable).
+prop(troll_warlord, role, durable).
+prop(ursa, role, durable).
+prop(viper, role, durable).
+prop(bane, role, durable).
+prop(enchantress, role, durable).
+prop(necrophos, role, durable).
+prop(ogre_magi, role, durable).
+prop(visage, role, durable).
+
+% Escape
+prop(centaur_warrunner, role, escape).
+prop(earth_spirit, role, escape).
+prop(io, role, escape).
+prop(lifestealer, role, escape).
+prop(lycan, role, escape).
+prop(magnus, role, escape).
+prop(phoenix, role, escape).
+prop(sand_king, role, escape).
+prop(stardar, role, escape).
+prop(snapfire, role, escape).
+prop(spirit_breaker, role, escape).
+prop(timbersaw, role, escape).
+prop(treant_protector, role, escape).
+prop(underlord, role, escape).
+prop(anti-mage, role, escape).
+prop(arc_warden, role, escape).
+prop(bounty_hunter, role, escape).
+prop(broodmother, role, escape).
+prop(clinkz, role, escape).
+prop(ember_spirit, role, escape).
+prop(faceless_void, role, escape).
+prop(hoodwink, role, escape).
+prop(juggernaut, role, escape).
+prop(meepo, role, escape).
+prop(mirana, role, escape).
+prop(monkey_king, role, escape).
+prop(morphling, role, escape).
+prop(naga_siren, role, escape).
+prop(nyx_assassin, role, escape).
+prop(pangolier, role, escape).
+prop(phantom_assassin, role, escape).
+prop(phantom_lancer, role, escape).
+prop(riki, role, escape).
+prop(slark, role, escape).
+prop(spectre, role, escape).
+prop(templar_assassin, role, escape).
+prop(vengeful_spirit, role, escape).
+prop(weaver, role, escape).
+prop(batrider, role, escape).
+prop(dark_seer, role, escape).
+prop(dark_willow, role, escape).
+prop(grimstroke, role, escape).
+prop(invoker, role, escape).
+prop(natures_prophet, role, escape).
+prop(oracle, role, escape).
+prop(puck, role, escape).
+prop(queen_of_pain, role, escape).
+prop(storm_spirit, role, escape).
+prop(void_spirit, role, escape).
+prop(windranger, role, escape).
+
+% Pusher
+prop(chaos_knight, role, pusher).
+prop(dragon_knight, role, pusher).
+prop(lycan, role, pusher).
+prop(tiny, role, pusher).
+prop(broodmother, role, pusher).
+prop(clinkz, role, pusher).
+prop(drow_ranger, role, pusher).
+prop(juggernaut, role, pusher).
+prop(lone_druid, role, pusher).
+prop(luna, role, pusher).
+prop(meepo, role, pusher).
+prop(naga_siren, role, pusher).
+prop(phantom_lancer, role, pusher).
+prop(razor, role, pusher).
+prop(terrorblade, role, pusher).
+prop(troll_warlord, role, pusher).
+prop(venomancer, role, pusher).
+prop(chen, role, pusher).
+prop(death_prophet, role, pusher).
+prop(enchantress, role, pusher).
+prop(enigma, role, pusher).
+prop(invoker, role, pusher).
+prop(jakiro, role, pusher).
+prop(leshrac, role, pusher).
+prop(natures_prophet, role, pusher).
+prop(pugna, role, pusher).
+prop(shadow_shaman, role, pusher).
+prop(tinker, role, pusher).
+prop(visage, role, pusher).
+
+% Initiator
+prop(alchemist, role, initiator).
+prop(axe, role, initiator).
+prop(beastmaster, role, initiator).
+prop(brewmaster, role, initiator).
+prop(bristleback, role, initiator).
+prop(centaur_warrunner, role, initiator).
+prop(chaos_knight, role, initiator).
+prop(clockwerk, role, initiator).
+prop(doom, role, initiator).
+prop(dragon_knight, role, initiator).
+prop(earth_spirit, role, initiator).
+prop(earthshaker, role, initiator).
+prop(elder_titan, role, initiator).
+prop(huskar, role, initiator).
+prop(kunkka, role, initiator).
+prop(legion_commander, role, initiator).
+prop(magnus, role, initiator).
+prop(mars, role, initiator).
+prop(night_stalker, role, initiator).
+prop(phoenix, role, initiator).
+prop(pudge, role, initiator).
+prop(sand_king, role, initiator).
+prop(slardar, role, initiator).
+prop(spirit_breaker, role, initiator).
+prop(sven, role, initiator).
+prop(tidehunter, role, initiator).
+prop(tiny, role, initiator).
+prop(treant_protector, role, initiator).
+prop(tusk, role, initiator).
+prop(wraith_king, role, initiator).
+prop(bloodseeker, role, initiator).
+prop(ember_spirit, role, initiator).
+prop(faceless_void, role, initiator).
+prop(meepo, role, initiator).
+prop(monkey_king, role, initiator).
+prop(naga_siren, role, initiator).
+prop(nyx_assassin, role, initiator).
+prop(pangolier, role, initiator).
+prop(vengeful_spirit, role, initiator).
+prop(venomancer, role, initiator).
+prop(viper, role, initiator).
+prop(batrider, role, initiator).
+prop(dark_seer, role, initiator).
+prop(disruptor, role, initiator).
+prop(enigma, role, initiator).
+prop(lion, role, initiator).
+prop(ogre_magi, role, initiator).
+prop(puck, role, initiator).
+prop(shadow_demon, role, initiator).
+prop(shadow_shaman, role, initiator).
+prop(silencer, role, initiator).
+prop(storm_spirit, role, initiator).
+prop(warlock, role, initiator).
 
