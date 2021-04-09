@@ -65,6 +65,7 @@ noun([support | L],L,Entity, [prop(Entity, role, support)|C],C).
 noun([nuker | L],L,Entity, [prop(Entity, role, nuker)|C],C).
 noun([disabler | L],L,Entity, [prop(Entity, role, disabler)|C],C).
 noun([jungler | L],L,Entity, [prop(Entity, role, jungle)|C],C).
+noun([jungle | L],L,Entity, [prop(Entity, role, jungle)|C],C).
 noun([durable | L],L,Entity, [prop(Entity, role, durable)|C],C).
 noun([escape | L],L,Entity, [prop(Entity, role, escape)|C],C).
 noun([pusher | L],L,Entity, [prop(Entity, role, pusher)|C],C).
