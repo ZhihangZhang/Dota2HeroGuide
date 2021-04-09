@@ -1,3 +1,5 @@
+% https://www.swi-prolog.org/FAQ/Multifile.html
+:- multifile prop/3.
 
 % Carry
 prop(abaddon , role, carry).
