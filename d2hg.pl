@@ -50,11 +50,11 @@ mp(L,L,_,C,C).
 % DICTIONARY
 % adj(L0,L1,Entity,C0,C1) is true if L0-L1
 % is an adjective that imposes constraints C0-C1 Entity
-adj([melee | L],L,Entity, [prop(Entity, type, hero), prop(Entity, attack_type, melee)|C],C).
-adj([ranged | L],L,Entity, [prop(Entity, type, hero), prop(Entity, attack_type, ranged)|C],C).
-adj([strength | L],L,Entity, [prop(Entity, type, hero), prop(Entity, attribute, strength)|C],C).
-adj([agility | L],L,Entity, [prop(Entity, type, hero), prop(Entity, attribute, agility)|C],C).
-adj([intelligence | L],L,Entity, [prop(Entity, type, hero), prop(Entity, attribute, intelligence)|C],C).
+adj([melee | L],L,Entity, [prop(Entity, attack_type, melee)|C],C).
+adj([ranged | L],L,Entity, [prop(Entity, attack_type, ranged)|C],C).
+adj([strength | L],L,Entity, [prop(Entity, attribute, strength)|C],C).
+adj([agility | L],L,Entity, [prop(Entity, attribute, agility)|C],C).
+adj([intelligence | L],L,Entity, [prop(Entity, attribute, intelligence)|C],C).
 
 
 noun([hero | L],L,Entity, [prop(Entity, type, hero)|C],C).
