@@ -1,6 +1,8 @@
-% https://www.swi-prolog.org/FAQ/Multifile.html
-:- multifile prop/3.
-
+:- [heroes].
+:- [attack_type].
+:- [attribute].
+:- [counters_and_synergies].
+:- [role].
 
 % noun_phrase(L0,L4,Entity,C0,C4) is true if
 %  L0 and L4 are list of words, such that
@@ -16,20 +18,12 @@ noun_phrase(L0,L4,Entity,C0,C4) :-
     adjectives(L1,L2,Entity,C1,C2),
     noun(L2,L3,Entity,C2,C3),
     mp(L3,L4,Entity,C3,C4).
-%noun_phrase(L0,L4,Entity,C0,C4) :-
-    %proper_noun(L0,L4,Entity,C0,C4).
-
-% Try:
-%?- noun_phrase([a,spanish,speaking,country],L1,E1,C0,C1).
-%?- noun_phrase([a,country,that,borders,chile],L1,E1,C0,C1).
-%?- noun_phrase([a,spanish,speaking,country,that,borders,chile],L1,E1,C0,C1).
 
 % Determiners (articles) are ignored in this oversimplified example.
 % They do not provide any extra constraints.
 det([the | L],L,_,C,C).
 det([a | L],L,_,C,C).
 det(L,L,_,C,C).
-
 
 % adjectives(L0,L2,Entity,C0,C2) is true if
 % L0-L2 is a sequence of adjectives imposes constraints C0-C2 on Entity
@@ -120,50 +114,6 @@ prove_all([H|T]) :-
     prove_all(T).
 
 
-%  The Database of Facts to be Queried
-/**
-% country(C) is true if C is a country
-country(argentina).
-country(brazil).
-country(chile).
-country(paraguay).
-country(peru).
-
-% large(C) is true if the area of C is greater than 2m km^2
-large(brazil).
-large(argentina).
-
-% language(L) is true if L is a language
-language(spanish).
-langauge(portugese).
-
-% speaks(Country,Lang) is true of Lang is an official language of Country
-speaks(argentina,spanish).
-speaks(brazil,portugese).
-speaks(chile,spanish).
-speaks(paraguay,spanish).
-speaks(peru,spanish).
-
-capital(argentina,'Buenos Aires').
-capital(chile,'Santiago').
-capital(peru,'Lima').
-capital(brazil,'Brasilia').
-capital(paraguay,'Asunción').
-
-% borders(C1,C2) is true if country C1 borders country C2
-borders(peru,chile).
-borders(chile,peru).
-borders(argentina,chile).
-borders(chile,argentina).
-borders(brazil,peru).
-borders(peru,brazil).
-borders(argentina,brazil).
-borders(brazil,argentina).
-borders(brazil,paraguay).
-borders(paraguay,brazil).
-borders(argentina,paraguay).
-borders(paraguay,argentina).
-
 /* Try the following queries:
 ?- ask(['What',is,a,country],A).
 ?- ask(['What',is,a,spanish,speaking,country],A).
@@ -175,7 +125,7 @@ borders(paraguay,argentina).
 ?- ask(['What',country,borders,chile],A).
 ?- ask(['What',country,that,borders,chile,borders,paraguay],A).
 */
-**/
+
 
 % To get the input from a line:
 
