@@ -81,10 +81,10 @@ noun([carry | L],L,Entity, [prop(Entity, role, carry)|C],C).
 %reln([borders | L],L,O1,O2,[borders(O1,O2)|C],C).
 %reln([the,capital,of | L],L,O1,O2, [capital(O2,O1)|C],C).
 %reln([next,to | L],L,O1,O2, [borders(O1,O2)|C],C).
-reln([counters | L],L,prop(O1, type, hero),prop(O2, type, hero), [prop(O1, counters, O2) | C],C).
-reln([counter | L],L,prop(O1, type, hero),prop(O2, type, hero), [prop(O1, counters, O2) | C],C).
-reln([synergizes, with | L],L,prop(O1, type, hero),prop(O2, type, hero), [prop(O1, synergizes, O2) | C],C).
-reln([synergizes| L],L,prop(O1, type, hero),prop(O2, type, hero), [prop(O1, synergizes, O2) | C],C).
+reln([counters | L],L, O1, O2, [prop(O1, counters, O2) | C],C).
+reln([counter | L],L,O1,O2, [prop(O1, counters, O2) | C],C).
+reln([synergizes, with | L],L,O1,O2, [prop(O1, synergizes, O2) | C],C).
+reln([synergizes| L],L,O1,O2, [prop(O1, synergizes, O2) | C],C).
 
 % question(Question,QR,Entity) is true if Query provides an answer about Entity to Question
 question(['Is' | L0],L2,Entity,C0,C2) :-
