@@ -43,7 +43,7 @@ prop(undying, attribute, strength).
 prop(wraith_king, attribute, strength).
 
 % Agility
-prop(anti-mage , attribute, agility).
+prop('anti-mage' , attribute, agility).
 prop(arc_warden , attribute, agility).
 prop(bloodseeker , attribute, agility).
 prop(bounty_hunter , attribute, agility).
