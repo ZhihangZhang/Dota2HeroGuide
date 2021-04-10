@@ -118,7 +118,6 @@ q(Ans) :-
 
 
 % Tests
-
 /*
 ?- q(Ans).
 Ask me: What is a hero that counters earthshaker?
