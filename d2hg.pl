@@ -18,6 +18,7 @@ noun_phrase(L0,L4,Entity,C0,C4) :-
     adjectives(L1,L2,Entity,C1,C2),
     noun(L2,L3,Entity,C2,C3),
     mp(L3,L4,Entity,C3,C4).
+
 noun_phrase(L0,L4,Entity,C0,C4) :-
     proper_noun(L0,L4,Entity,C0,C4).
 
@@ -46,7 +47,6 @@ mp([that|L0],L2,Subject,C0,C2) :-
     noun_phrase(L1,L2,Object,C1,C2).
 mp(L,L,_,C,C).
 
-% TODO: add hero constraints
 % DICTIONARY
 % adj(L0,L1,Entity,C0,C1) is true if L0-L1
 % is an adjective that imposes constraints C0-C1 Entity
