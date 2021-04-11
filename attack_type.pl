@@ -4,7 +4,7 @@
 % Melee
 prop(abaddon, attack_type, melee).
 prop(alchemist, attack_type, melee).
-prop(anti-mage, attack_type, melee).
+prop('anti-mage', attack_type, melee).
 prop(axe, attack_type, melee).
 prop(beastmaster, attack_type, melee).
 prop(bloodseeker, attack_type, melee).

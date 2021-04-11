@@ -1,5 +1,173 @@
 [
     [
+        "'anti-mage'",
+        "abaddon"
+    ],
+    [
+        "'anti-mage'",
+        "ancient_apparition"
+    ],
+    [
+        "'anti-mage'",
+        "arc_warden"
+    ],
+    [
+        "'anti-mage'",
+        "bristleback"
+    ],
+    [
+        "'anti-mage'",
+        "chaos_knight"
+    ],
+    [
+        "'anti-mage'",
+        "clockwerk"
+    ],
+    [
+        "'anti-mage'",
+        "dark_seer"
+    ],
+    [
+        "'anti-mage'",
+        "dark_willow"
+    ],
+    [
+        "'anti-mage'",
+        "death_prophet"
+    ],
+    [
+        "'anti-mage'",
+        "elder_titan"
+    ],
+    [
+        "'anti-mage'",
+        "enigma"
+    ],
+    [
+        "'anti-mage'",
+        "gyrocopter"
+    ],
+    [
+        "'anti-mage'",
+        "invoker"
+    ],
+    [
+        "'anti-mage'",
+        "jakiro"
+    ],
+    [
+        "'anti-mage'",
+        "leshrac"
+    ],
+    [
+        "'anti-mage'",
+        "lich"
+    ],
+    [
+        "'anti-mage'",
+        "lina"
+    ],
+    [
+        "'anti-mage'",
+        "medusa"
+    ],
+    [
+        "'anti-mage'",
+        "morphling"
+    ],
+    [
+        "'anti-mage'",
+        "ogre_magi"
+    ],
+    [
+        "'anti-mage'",
+        "oracle"
+    ],
+    [
+        "'anti-mage'",
+        "phoenix"
+    ],
+    [
+        "'anti-mage'",
+        "pudge"
+    ],
+    [
+        "'anti-mage'",
+        "pugna"
+    ],
+    [
+        "'anti-mage'",
+        "queen_of_pain"
+    ],
+    [
+        "'anti-mage'",
+        "razor"
+    ],
+    [
+        "'anti-mage'",
+        "rubick"
+    ],
+    [
+        "'anti-mage'",
+        "skywrath_mage"
+    ],
+    [
+        "'anti-mage'",
+        "snapfire"
+    ],
+    [
+        "'anti-mage'",
+        "spectre"
+    ],
+    [
+        "'anti-mage'",
+        "storm_spirit"
+    ],
+    [
+        "'anti-mage'",
+        "techies"
+    ],
+    [
+        "'anti-mage'",
+        "tidehunter"
+    ],
+    [
+        "'anti-mage'",
+        "tinker"
+    ],
+    [
+        "'anti-mage'",
+        "tusk"
+    ],
+    [
+        "'anti-mage'",
+        "undying"
+    ],
+    [
+        "'anti-mage'",
+        "ursa"
+    ],
+    [
+        "'anti-mage'",
+        "vengeful_spirit"
+    ],
+    [
+        "'anti-mage'",
+        "venomancer"
+    ],
+    [
+        "'anti-mage'",
+        "warlock"
+    ],
+    [
+        "'anti-mage'",
+        "wraith_king"
+    ],
+    [
+        "'anti-mage'",
+        "zeus"
+    ],
+    [
         "abaddon",
         "bane"
     ],
@@ -188,174 +356,6 @@
         "winter_wyvern"
     ],
     [
-        "anti-mage",
-        "abaddon"
-    ],
-    [
-        "anti-mage",
-        "ancient_apparition"
-    ],
-    [
-        "anti-mage",
-        "arc_warden"
-    ],
-    [
-        "anti-mage",
-        "bristleback"
-    ],
-    [
-        "anti-mage",
-        "chaos_knight"
-    ],
-    [
-        "anti-mage",
-        "clockwerk"
-    ],
-    [
-        "anti-mage",
-        "dark_seer"
-    ],
-    [
-        "anti-mage",
-        "dark_willow"
-    ],
-    [
-        "anti-mage",
-        "death_prophet"
-    ],
-    [
-        "anti-mage",
-        "elder_titan"
-    ],
-    [
-        "anti-mage",
-        "enigma"
-    ],
-    [
-        "anti-mage",
-        "gyrocopter"
-    ],
-    [
-        "anti-mage",
-        "invoker"
-    ],
-    [
-        "anti-mage",
-        "jakiro"
-    ],
-    [
-        "anti-mage",
-        "leshrac"
-    ],
-    [
-        "anti-mage",
-        "lich"
-    ],
-    [
-        "anti-mage",
-        "lina"
-    ],
-    [
-        "anti-mage",
-        "medusa"
-    ],
-    [
-        "anti-mage",
-        "morphling"
-    ],
-    [
-        "anti-mage",
-        "ogre_magi"
-    ],
-    [
-        "anti-mage",
-        "oracle"
-    ],
-    [
-        "anti-mage",
-        "phoenix"
-    ],
-    [
-        "anti-mage",
-        "pudge"
-    ],
-    [
-        "anti-mage",
-        "pugna"
-    ],
-    [
-        "anti-mage",
-        "queen_of_pain"
-    ],
-    [
-        "anti-mage",
-        "razor"
-    ],
-    [
-        "anti-mage",
-        "rubick"
-    ],
-    [
-        "anti-mage",
-        "skywrath_mage"
-    ],
-    [
-        "anti-mage",
-        "snapfire"
-    ],
-    [
-        "anti-mage",
-        "spectre"
-    ],
-    [
-        "anti-mage",
-        "storm_spirit"
-    ],
-    [
-        "anti-mage",
-        "techies"
-    ],
-    [
-        "anti-mage",
-        "tidehunter"
-    ],
-    [
-        "anti-mage",
-        "tinker"
-    ],
-    [
-        "anti-mage",
-        "tusk"
-    ],
-    [
-        "anti-mage",
-        "undying"
-    ],
-    [
-        "anti-mage",
-        "ursa"
-    ],
-    [
-        "anti-mage",
-        "vengeful_spirit"
-    ],
-    [
-        "anti-mage",
-        "venomancer"
-    ],
-    [
-        "anti-mage",
-        "warlock"
-    ],
-    [
-        "anti-mage",
-        "wraith_king"
-    ],
-    [
-        "anti-mage",
-        "zeus"
-    ],
-    [
         "arc_warden",
         "drow_ranger"
     ],
@@ -409,11 +409,11 @@
     ],
     [
         "axe",
-        "abaddon"
+        "'anti-mage'"
     ],
     [
         "axe",
-        "anti-mage"
+        "abaddon"
     ],
     [
         "axe",
@@ -525,7 +525,7 @@
     ],
     [
         "bane",
-        "anti-mage"
+        "'anti-mage'"
     ],
     [
         "bane",
@@ -661,7 +661,7 @@
     ],
     [
         "bloodseeker",
-        "anti-mage"
+        "'anti-mage'"
     ],
     [
         "bloodseeker",
@@ -1157,7 +1157,7 @@
     ],
     [
         "clinkz",
-        "anti-mage"
+        "'anti-mage'"
     ],
     [
         "clinkz",
@@ -1453,7 +1453,7 @@
     ],
     [
         "disruptor",
-        "anti-mage"
+        "'anti-mage'"
     ],
     [
         "disruptor",
@@ -1509,11 +1509,11 @@
     ],
     [
         "doom",
-        "abaddon"
+        "'anti-mage'"
     ],
     [
         "doom",
-        "anti-mage"
+        "abaddon"
     ],
     [
         "doom",
@@ -1685,7 +1685,7 @@
     ],
     [
         "drow_ranger",
-        "anti-mage"
+        "'anti-mage'"
     ],
     [
         "drow_ranger",
@@ -2061,7 +2061,7 @@
     ],
     [
         "faceless_void",
-        "anti-mage"
+        "'anti-mage'"
     ],
     [
         "faceless_void",
@@ -2157,7 +2157,7 @@
     ],
     [
         "grimstroke",
-        "anti-mage"
+        "'anti-mage'"
     ],
     [
         "grimstroke",
@@ -2657,7 +2657,7 @@
     ],
     [
         "legion_commander",
-        "anti-mage"
+        "'anti-mage'"
     ],
     [
         "legion_commander",
@@ -3401,7 +3401,7 @@
     ],
     [
         "meepo",
-        "anti-mage"
+        "'anti-mage'"
     ],
     [
         "meepo",
@@ -3833,7 +3833,7 @@
     ],
     [
         "night_stalker",
-        "anti-mage"
+        "'anti-mage'"
     ],
     [
         "night_stalker",
@@ -4245,11 +4245,11 @@
     ],
     [
         "outworld_destroyer",
-        "abaddon"
+        "'anti-mage'"
     ],
     [
         "outworld_destroyer",
-        "anti-mage"
+        "abaddon"
     ],
     [
         "outworld_destroyer",
@@ -4401,7 +4401,7 @@
     ],
     [
         "phantom_assassin",
-        "anti-mage"
+        "'anti-mage'"
     ],
     [
         "phantom_assassin",
@@ -4453,11 +4453,11 @@
     ],
     [
         "phantom_lancer",
-        "ancient_apparition"
+        "'anti-mage'"
     ],
     [
         "phantom_lancer",
-        "anti-mage"
+        "ancient_apparition"
     ],
     [
         "phantom_lancer",
@@ -4661,7 +4661,7 @@
     ],
     [
         "puck",
-        "anti-mage"
+        "'anti-mage'"
     ],
     [
         "puck",
@@ -5037,7 +5037,7 @@
     ],
     [
         "riki",
-        "anti-mage"
+        "'anti-mage'"
     ],
     [
         "riki",
@@ -5281,15 +5281,15 @@
     ],
     [
         "shadow_demon",
+        "'anti-mage'"
+    ],
+    [
+        "shadow_demon",
         "abaddon"
     ],
     [
         "shadow_demon",
         "alchemist"
-    ],
-    [
-        "shadow_demon",
-        "anti-mage"
     ],
     [
         "shadow_demon",
@@ -5617,11 +5617,11 @@
     ],
     [
         "slardar",
-        "alchemist"
+        "'anti-mage'"
     ],
     [
         "slardar",
-        "anti-mage"
+        "alchemist"
     ],
     [
         "slardar",
@@ -5685,11 +5685,11 @@
     ],
     [
         "slark",
-        "alchemist"
+        "'anti-mage'"
     ],
     [
         "slark",
-        "anti-mage"
+        "alchemist"
     ],
     [
         "slark",
@@ -6005,7 +6005,7 @@
     ],
     [
         "spirit_breaker",
-        "anti-mage"
+        "'anti-mage'"
     ],
     [
         "spirit_breaker",
@@ -6149,7 +6149,7 @@
     ],
     [
         "sven",
-        "anti-mage"
+        "'anti-mage'"
     ],
     [
         "sven",
@@ -6273,7 +6273,7 @@
     ],
     [
         "templar_assassin",
-        "anti-mage"
+        "'anti-mage'"
     ],
     [
         "templar_assassin",
@@ -6321,11 +6321,11 @@
     ],
     [
         "terrorblade",
-        "ancient_apparition"
+        "'anti-mage'"
     ],
     [
         "terrorblade",
-        "anti-mage"
+        "ancient_apparition"
     ],
     [
         "terrorblade",
@@ -6617,7 +6617,7 @@
     ],
     [
         "treant_protector",
-        "anti-mage"
+        "'anti-mage'"
     ],
     [
         "treant_protector",
@@ -6661,7 +6661,7 @@
     ],
     [
         "troll_warlord",
-        "anti-mage"
+        "'anti-mage'"
     ],
     [
         "troll_warlord",
@@ -7053,15 +7053,15 @@
     ],
     [
         "viper",
+        "'anti-mage'"
+    ],
+    [
+        "viper",
         "abaddon"
     ],
     [
         "viper",
         "ancient_apparition"
-    ],
-    [
-        "viper",
-        "anti-mage"
     ],
     [
         "viper",

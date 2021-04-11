@@ -1,13 +1,8 @@
-% Prolog representation of a grammar to ask a query of a database
-% Builds a query which can then be asked of the knowledge base
-%  This is not meant to be polished or lingustically reasonable, but purely to show what can be done
-
-% This is expanded code of Figure 13.12 in Section 13.6.6 of
-% Poole and Mackworth, Artificial Intelligence: foundations of
-% computational agents, Cambridge, 2017
-
-% Copyright (c) David Poole and Alan Mackworth 2017. This program
-% is released under GPL, version 3 or later; see http://www.gnu.org/licenses/gpl.html
+:- [heroes].
+:- [attack_type].
+:- [attribute].
+:- [counters_and_synergies].
+:- [role].
 
 % noun_phrase(L0,L4,Entity,C0,C4) is true if
 %  L0 and L4 are list of words, such that
@@ -23,13 +18,9 @@ noun_phrase(L0,L4,Entity,C0,C4) :-
     adjectives(L1,L2,Entity,C1,C2),
     noun(L2,L3,Entity,C2,C3),
     mp(L3,L4,Entity,C3,C4).
+
 noun_phrase(L0,L4,Entity,C0,C4) :-
     proper_noun(L0,L4,Entity,C0,C4).
-
-% Try:
-%?- noun_phrase([a,spanish,speaking,country],L1,E1,C0,C1).
-%?- noun_phrase([a,country,that,borders,chile],L1,E1,C0,C1).
-%?- noun_phrase([a,spanish,speaking,country,that,borders,chile],L1,E1,C0,C1).
 
 % Determiners (articles) are ignored in this oversimplified example.
 % They do not provide any extra constraints.
@@ -37,8 +28,7 @@ det([the | L],L,_,C,C).
 det([a | L],L,_,C,C).
 det(L,L,_,C,C).
 
-
-% adjectives(L0,L2,Entity,C0,C2) is true if 
+% adjectives(L0,L2,Entity,C0,C2) is true if
 % L0-L2 is a sequence of adjectives imposes constraints C0-C2 on Entity
 adjectives(L0,L2,Entity,C0,C2) :-
     adj(L0,L1,Entity,C0,C1),
@@ -48,7 +38,7 @@ adjectives(L,L,_,C,C).
 % An optional modifying phrase / relative clause is either
 % a relation (verb or preposition) followed by a noun_phrase or
 % 'that' followed by a relation then a noun_phrase or
-% nothing 
+% nothing
 mp(L0,L2,Subject,C0,C2) :-
     reln(L0,L1,Subject,Object,C0,C1),
     noun_phrase(L1,L2,Object,C1,C2).
@@ -58,35 +48,45 @@ mp([that|L0],L2,Subject,C0,C2) :-
 mp(L,L,_,C,C).
 
 % DICTIONARY
-% adj(L0,L1,Entity,C0,C1) is true if L0-L1 
+% adj(L0,L1,Entity,C0,C1) is true if L0-L1
 % is an adjective that imposes constraints C0-C1 Entity
-adj([large | L],L,Entity, [large(Entity)|C],C).
-adj([Lang,speaking | L],L,Entity, [speaks(Entity,Lang)|C],C).
-adj([Lang,-,speaking | L],L,Entity, [speaks(Entity,Lang)|C],C).
+adj([melee | L],L,Entity, [prop(Entity, attack_type, melee)|C],C).
+adj([ranged | L],L,Entity, [prop(Entity, attack_type, ranged)|C],C).
+adj([strength | L],L,Entity, [prop(Entity, attribute, strength)|C],C).
+adj([agility | L],L,Entity, [prop(Entity, attribute, agility)|C],C).
+adj([intelligence | L],L,Entity, [prop(Entity, attribute, intelligence)|C],C).
 
-noun([country | L],L,Entity, [country(Entity)|C],C).
-noun([city | L],L,Entity, [city(Entity)|C],C).
 
-% Countries and languages are proper nouns.
-% We could either have it check a language dictionary or add the constraints. We chose to check the dictionary.
-proper_noun([X | L],L,X, C,C) :- country(X).
-proper_noun([X | L],L,X,C,C) :- language(X).
+noun([hero | L],L,Entity, [prop(Entity, type, hero)|C],C).
+noun([support | L],L,Entity, [prop(Entity, type, hero), prop(Entity, role, support)|C],C).
+noun([nuker | L],L,Entity, [prop(Entity, type, hero), prop(Entity, role, nuker)|C],C).
+noun([disabler | L],L,Entity, [prop(Entity, type, hero), prop(Entity, role, disabler)|C],C).
+noun([jungler | L],L,Entity, [prop(Entity, type, hero), prop(Entity, role, jungle)|C],C).
+noun([jungle | L],L,Entity, [prop(Entity, type, hero), prop(Entity, role, jungle)|C],C).
+noun([durable | L],L,Entity, [prop(Entity, type, hero), prop(Entity, role, durable)|C],C).
+noun([escape | L],L,Entity, [prop(Entity, type, hero), prop(Entity, role, escape)|C],C).
+noun([pusher | L],L,Entity, [prop(Entity, type, hero), prop(Entity, role, pusher)|C],C).
+noun([initiator | L],L,Entity, [prop(Entity, type, hero), prop(Entity, role, initiator)|C],C).
+noun([carry | L],L,Entity, [prop(Entity, type, hero), prop(Entity, role, carry)|C],C).
 
-reln([borders | L],L,O1,O2,[borders(O1,O2)|C],C).
-reln([the,capital,of | L],L,O1,O2, [capital(O2,O1)|C],C).
-reln([next,to | L],L,O1,O2, [borders(O1,O2)|C],C).
+% Heroes are proper nouns
+proper_noun([X | L],L,X, C,C) :- prop(X, type, hero).
+
+% Used in "What is a hero..."
+reln([counters | L],L, O1, O2, [prop(O1, counters, O2) | C],C).
+reln([synergizes, with | L],L,O1,O2, [prop(O1, synergizes, O2) | C],C).
+
+% Used in "Does <hero>..."
+reln([counter | L],L, O1, O2, [prop(O1, counters, O2) | C],C).
+reln([synergize, with | L],L, O1, O2, [prop(O1, synergizes, O2) | C],C).
 
 % question(Question,QR,Entity) is true if Query provides an answer about Entity to Question
-question(['Is' | L0],L2,Entity,C0,C2) :-
-    noun_phrase(L0,L1,Entity,C0,C1),
-    mp(L1,L2,Entity,C1,C2).
-question(['What',is | L0], L1, Entity,C0,C1) :-
-    mp(L0,L1,Entity,C0,C1).
 question(['What',is | L0],L1,Entity,C0,C1) :-
     noun_phrase(L0,L1,Entity,C0,C1).
-question(['What' | L0],L2,Entity,C0,C2) :-
+question(['Does' | L0],L2,Entity,C0,C2) :-
     noun_phrase(L0,L1,Entity,C0,C1),
     mp(L1,L2,Entity,C1,C2).
+
 
 % ask(Q,A) gives answer A to question Q
 ask(Q,A) :-
@@ -106,97 +106,97 @@ prove_all([H|T]) :-
     prove_all(T).
 
 
-%  The Database of Facts to be Queried
-
-% country(C) is true if C is a country
-country(argentina).
-country(brazil).
-country(chile).
-country(paraguay).
-country(peru).
-country(test_test).
-
-% large(C) is true if the area of C is greater than 2m km^2
-large(brazil).
-large(test_test).
-large(argentina).
-
-% language(L) is true if L is a language
-language(spanish).
-language(portugese).
-
-% speaks(Country,Lang) is true of Lang is an official language of Country
-speaks(argentina,spanish).
-speaks(brazil,portugese).
-speaks(chile,spanish).
-speaks(paraguay,spanish).
-speaks(peru,spanish).
-
-capital(argentina,'Buenos Aires').
-capital(chile,'Santiago').
-capital(peru,'Lima').
-capital(brazil,'Brasilia').
-capital(paraguay,'Asunción').
-
-% borders(C1,C2) is true if country C1 borders country C2
-borders(peru,chile).
-borders(chile,peru).
-borders(argentina,chile).
-borders(chile,argentina).
-borders(brazil,peru).
-borders(peru,brazil).
-borders(argentina,brazil).
-borders(brazil,argentina).
-borders(brazil,paraguay).
-borders(paraguay,brazil).
-borders(argentina,paraguay).
-borders(paraguay,argentina).
-
-/* Try the following queries:
-?- ask(['What',is,a,country],A).
-?- ask(['What',is,a,spanish,speaking,country],A).
-?- ask(['What',is,the,capital,of, chile],A).
-?- ask(['What',is,the,capital,of, a, country],A).
-?- ask(['What',is, a, country, that, borders,chile],A).
-?- ask(['What',is, a, country, that, borders,a, country,that,borders,chile],A).
-?- ask(['What',is,the,capital,of, a, country, that, borders,chile],A).
-?- ask(['What',country,borders,chile],A).
-?- ask(['What',country,that,borders,chile,borders,paraguay],A).
-*/
-
-
 % To get the input from a line:
 
 q(Ans) :-
     write("Ask me: "), flush_output(current_output),
-    readln(Ln),
+    % https://www.swi-prolog.org/pldoc/doc/_SWI_/library/readln.pl
+    % http://amzi.com/manuals/amzi/pro/ref_terms.htm
+    % to allow dash in hero name. e.g anti-mage
+    readln(Ln, _, _, [95, 45], uppercase),
     ask(Ln,Ans).
-   
 
+
+% Tests
 /*
 ?- q(Ans).
-Ask me: What is a country that borders chile?
-Ans = argentina ;
-Ans = peru ;
+Ask me: What is a hero that counters earthshaker?
+Ans = puck ;
+Ans = windranger ;
+Ans = clockwerk ;
+Ans = zeus ;
+Ans = huskar ;
+Ans = sniper ;
+Ans = templar_assassin ;
+Ans = jakiro ;
+Ans = ogre_magi ;
+Ans = rubick ;
+Ans = disruptor ;
+Ans = earth_spirit ;
+Ans = skywrath_mage ;
+Ans = phoenix ;
+Ans = razor ;
+Ans = venomancer ;
+Ans = lifestealer ;
+Ans = night_stalker ;
+Ans = viper ;
+Ans = necrophos ;
+Ans = spectre ;
+Ans = death_prophet ;
+Ans = outworld_destroyer ;
 false.
 
 ?- q(Ans).
-Ask me: What is the capital of a spanish speaking country that borders argentina?
-Ans = 'Santiago' ;
-Ans = 'Asunción' ;
+Ask me: What is a intelligence hero that counters outworld_destroyer?
+Ans = pugna ;
+Ans = rubick ;
+Ans = silencer ;
 false.
 
-Some more questions:
-What is next to chile?
-Is brazil next to peru?
-What is a country that borders a country that borders chile.
-What is borders chile?
-What borders chile?
-What country borders chile?
-What country that borders chile is next to paraguay?
-What country that borders chile next to paraguay?
+?- q(Ans).
+Ask me: What is a melee hero that synergizes with tusk?
+Ans = axe ;
+Ans = centaur_warrunner ;
+Ans = juggernaut ;
+Ans = legion_commander ;
+Ans = lifestealer ;
+Ans = meepo ;
+Ans = omniknight ;
+Ans = tidehunter ;
+Ans = tiny ;
+false.
 
-What country borders chile?
-What country that borders chile is next to paraguay?
-What country that borders chile next to paraguay?
+?- q(Ans).
+Ask me: Does meepo counter anti-mage?
+Ans = meepo ;
+false.
+
+?- q(Ans).
+Ask me: What is a agility hero that counters anti-mage?
+Ans = bloodseeker ;
+Ans = clinkz ;
+Ans = drow_ranger ;
+Ans = faceless_void ;
+Ans = meepo ;
+Ans = phantom_assassin ;
+Ans = phantom_lancer ;
+Ans = riki ;
+Ans = slark ;
+Ans = templar_assassin ;
+Ans = terrorblade ;
+Ans = troll_warlord ;
+Ans = viper ;
+false.
+
+?- q(Ans).
+Ask me: What is a ranged hero that synergizes with anti-mage?
+Ans = bane ;
+Ans = dazzle ;
+Ans = disruptor ;
+Ans = lion ;
+Ans = oracle ;
+Ans = shadow_demon ;
+Ans = silencer ;
+false.
 */
+

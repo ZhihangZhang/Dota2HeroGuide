@@ -23,7 +23,7 @@ prop(sven , role, carry).
 prop(tidehunter , role, carry).
 prop(tiny , role, carry).
 prop(wraith_king , role, carry).
-prop(anti-mage, role, carry).
+prop('anti-mage', role, carry).
 prop(arc_warden, role, carry).
 prop(bloodseeker, role, carry).
 prop(broodmother, role, carry).
@@ -146,7 +146,7 @@ prop(tiny, role, nuker).
 prop(tusk, role, nuker).
 prop(underlord, role, nuker).
 prop(undying, role, nuker).
-prop(anti-mage, role, nuker).
+prop('anti-mage', role, nuker).
 prop(arc-warden, role, nuker).
 prop(bloodseeker, role, nuker).
 prop(bounty_hunter, role, nuker).
@@ -378,7 +378,7 @@ prop(spirit_breaker, role, escape).
 prop(timbersaw, role, escape).
 prop(treant_protector, role, escape).
 prop(underlord, role, escape).
-prop(anti-mage, role, escape).
+prop('anti-mage', role, escape).
 prop(arc_warden, role, escape).
 prop(bounty_hunter, role, escape).
 prop(broodmother, role, escape).

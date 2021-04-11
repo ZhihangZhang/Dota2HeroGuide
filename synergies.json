@@ -1,5 +1,53 @@
 [
     [
+        "'anti-mage'",
+        "bane"
+    ],
+    [
+        "'anti-mage'",
+        "bounty_hunter"
+    ],
+    [
+        "'anti-mage'",
+        "dark_seer"
+    ],
+    [
+        "'anti-mage'",
+        "dazzle"
+    ],
+    [
+        "'anti-mage'",
+        "disruptor"
+    ],
+    [
+        "'anti-mage'",
+        "lion"
+    ],
+    [
+        "'anti-mage'",
+        "magnus"
+    ],
+    [
+        "'anti-mage'",
+        "oracle"
+    ],
+    [
+        "'anti-mage'",
+        "shadow_demon"
+    ],
+    [
+        "'anti-mage'",
+        "silencer"
+    ],
+    [
+        "'anti-mage'",
+        "slardar"
+    ],
+    [
+        "'anti-mage'",
+        "treant_protector"
+    ],
+    [
         "abaddon",
         "axe"
     ],
@@ -128,54 +176,6 @@
         "zeus"
     ],
     [
-        "anti-mage",
-        "bane"
-    ],
-    [
-        "anti-mage",
-        "bounty_hunter"
-    ],
-    [
-        "anti-mage",
-        "dark_seer"
-    ],
-    [
-        "anti-mage",
-        "dazzle"
-    ],
-    [
-        "anti-mage",
-        "disruptor"
-    ],
-    [
-        "anti-mage",
-        "lion"
-    ],
-    [
-        "anti-mage",
-        "magnus"
-    ],
-    [
-        "anti-mage",
-        "oracle"
-    ],
-    [
-        "anti-mage",
-        "shadow_demon"
-    ],
-    [
-        "anti-mage",
-        "silencer"
-    ],
-    [
-        "anti-mage",
-        "slardar"
-    ],
-    [
-        "anti-mage",
-        "treant_protector"
-    ],
-    [
         "arc_warden",
         "ancient_apparition"
     ],
@@ -273,7 +273,7 @@
     ],
     [
         "bane",
-        "anti-mage"
+        "'anti-mage'"
     ],
     [
         "bane",
@@ -533,7 +533,7 @@
     ],
     [
         "bounty_hunter",
-        "anti-mage"
+        "'anti-mage'"
     ],
     [
         "bounty_hunter",
@@ -873,7 +873,7 @@
     ],
     [
         "dark_seer",
-        "anti-mage"
+        "'anti-mage'"
     ],
     [
         "dark_seer",
@@ -1017,7 +1017,7 @@
     ],
     [
         "dazzle",
-        "anti-mage"
+        "'anti-mage'"
     ],
     [
         "dazzle",
@@ -1101,7 +1101,7 @@
     ],
     [
         "disruptor",
-        "anti-mage"
+        "'anti-mage'"
     ],
     [
         "disruptor",
@@ -2417,7 +2417,7 @@
     ],
     [
         "lion",
-        "anti-mage"
+        "'anti-mage'"
     ],
     [
         "lion",
@@ -2517,7 +2517,7 @@
     ],
     [
         "magnus",
-        "anti-mage"
+        "'anti-mage'"
     ],
     [
         "magnus",
@@ -3165,6 +3165,10 @@
     ],
     [
         "oracle",
+        "'anti-mage'"
+    ],
+    [
+        "oracle",
         "abaddon"
     ],
     [
@@ -3174,10 +3178,6 @@
     [
         "oracle",
         "ancient_apparition"
-    ],
-    [
-        "oracle",
-        "anti-mage"
     ],
     [
         "oracle",
@@ -3785,11 +3785,11 @@
     ],
     [
         "shadow_demon",
-        "ancient_apparition"
+        "'anti-mage'"
     ],
     [
         "shadow_demon",
-        "anti-mage"
+        "ancient_apparition"
     ],
     [
         "shadow_demon",
@@ -3905,7 +3905,7 @@
     ],
     [
         "silencer",
-        "anti-mage"
+        "'anti-mage'"
     ],
     [
         "silencer",
@@ -3981,11 +3981,11 @@
     ],
     [
         "slardar",
-        "alchemist"
+        "'anti-mage'"
     ],
     [
         "slardar",
-        "anti-mage"
+        "alchemist"
     ],
     [
         "slardar",
@@ -4525,7 +4525,7 @@
     ],
     [
         "treant_protector",
-        "anti-mage"
+        "'anti-mage'"
     ],
     [
         "treant_protector",

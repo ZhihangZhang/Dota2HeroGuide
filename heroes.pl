@@ -6,7 +6,7 @@ prop(earthshaker, type, hero).
 prop(sven, type, hero).
 prop(tiny, type, hero).
 prop(kunkka, type, hero).
-prop(anti-mage, type, hero).
+prop('anti-mage', type, hero).
 prop(drow_ranger, type, hero).
 prop(juggernaut, type, hero).
 prop(mirana, type, hero).

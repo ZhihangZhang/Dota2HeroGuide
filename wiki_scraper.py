@@ -82,7 +82,10 @@ def scrape_counters_and_synergies(name, url):
     return (counters, synergies)
 
 def standardize(name):
-    return name.replace(' ', '_').replace("'", '').lower()
+    n = name.replace(' ', '_').replace("'", '').lower()
+    if '-' in name:
+        n = "'" + n + "'"
+    return n
 
 def generate_prolog(heroes, counters, synergies):
     # heroes
