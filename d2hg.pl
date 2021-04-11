@@ -26,6 +26,7 @@ noun_phrase(L0,L4,Entity,C0,C4) :-
 % They do not provide any extra constraints.
 det([the | L],L,_,C,C).
 det([a | L],L,_,C,C).
+det([an | L],L,_,C,C).
 det(L,L,_,C,C).
 
 % adjectives(L0,L2,Entity,C0,C2) is true if
@@ -39,13 +40,19 @@ adjectives(L,L,_,C,C).
 % a relation (verb or preposition) followed by a noun_phrase or
 % 'that' followed by a relation then a noun_phrase or
 % nothing
-mp(L0,L2,Subject,C0,C2) :-
+mp(L0,L3,Subject,C0,C3) :-
     reln(L0,L1,Subject,Object,C0,C1),
-    noun_phrase(L1,L2,Object,C1,C2).
-mp([that|L0],L2,Subject,C0,C2) :-
+    noun_phrase(L1,L2,Object,C1,C2),
+    submp(L2,L3,Subject,C2,C3).
+mp([that|L0],L3,Subject,C0,C3) :-
     reln(L0,L1,Subject,Object,C0,C1),
-    noun_phrase(L1,L2,Object,C1,C2).
+    noun_phrase(L1,L2,Object,C1,C2),
+    submp(L2,L3,Subject,C2,C3).
 mp(L,L,_,C,C).
+
+submp([and | L0],L1,Subject,C0,C1) :- mp(L0,L1,Subject,C0,C1).
+submp(L,L,_,C,C).
+
 
 % DICTIONARY
 % adj(L0,L1,Entity,C0,C1) is true if L0-L1
@@ -197,6 +204,19 @@ Ans = lion ;
 Ans = oracle ;
 Ans = shadow_demon ;
 Ans = silencer ;
+false.
+
+?- q(Ans).
+Ask me: What is a hero that counters anti-mage and synergizes with io?
+Ans = sven ;
+Ans = legion_commander ;
+Ans = phantom_assassin ;
+Ans = spirit_breaker ;
+false.
+
+?- q(Ans).
+Ask me: Does sven counter anti-mage and synergize with io?
+Ans = sven ;
 false.
 */
 
