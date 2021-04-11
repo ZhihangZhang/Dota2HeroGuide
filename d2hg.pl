@@ -63,7 +63,7 @@ adj([strength | L],L,Entity, [prop(Entity, attribute, strength)|C],C).
 adj([agility | L],L,Entity, [prop(Entity, attribute, agility)|C],C).
 adj([intelligence | L],L,Entity, [prop(Entity, attribute, intelligence)|C],C).
 
-
+% "hero" and hero roles are nouns
 noun([hero | L],L,Entity, [prop(Entity, type, hero)|C],C).
 noun([support | L],L,Entity, [prop(Entity, type, hero), prop(Entity, role, support)|C],C).
 noun([nuker | L],L,Entity, [prop(Entity, type, hero), prop(Entity, role, nuker)|C],C).
@@ -79,11 +79,11 @@ noun([carry | L],L,Entity, [prop(Entity, type, hero), prop(Entity, role, carry)|
 % Heroes are proper nouns
 proper_noun([X | L],L,X, C,C) :- prop(X, type, hero).
 
-% Used in "What is a hero..."
+% Relations used in "What is a hero..."
 reln([counters | L],L, O1, O2, [prop(O1, counters, O2) | C],C).
 reln([synergizes, with | L],L,O1,O2, [prop(O1, synergizes, O2) | C],C).
 
-% Used in "Does <hero>..."
+% Relations used in "Does <hero>..."
 reln([counter | L],L, O1, O2, [prop(O1, counters, O2) | C],C).
 reln([synergize, with | L],L, O1, O2, [prop(O1, synergizes, O2) | C],C).
 
@@ -114,7 +114,6 @@ prove_all([H|T]) :-
 
 
 % To get the input from a line:
-
 q(Ans) :-
     write("Ask me: "), flush_output(current_output),
     % https://www.swi-prolog.org/pldoc/doc/_SWI_/library/readln.pl
